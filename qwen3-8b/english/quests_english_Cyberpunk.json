@@ -1,0 +1,110 @@
+[
+    {
+        "npc name": "Kai Voss",
+        "ethnicity": "black person",
+        "role": "Thief",
+        "quest": "You need to retrieve a stolen data chip from a corrupt corporate vault in the undercity. The chip contains evidence of illegal experiments.",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "I know you're not here for the party, stranger. I've got a job that'll make your day worth it."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "What's the deal? Why should I trust you?"
+            },
+            {
+                "speaker": "NPC",
+                "text": "Because this data could bring down a whole empire. Just come with me, and we’ll split the profit."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "Where do we start?"
+            }
+        ]
+    },
+    {
+        "npc name": "Drew Voss",
+        "ethnicity": "caucasian",
+        "role": "Bounty Hunter",
+        "quest": "A high-profile cybernetic thief has been targeting corporate data vaults, and the authorities need someone with your skills to bring them down.",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "You're not exactly a cop, but you've got that edge. I need someone like you to track down a cybernetic thief."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "What's the reward?"
+            },
+            {
+                "speaker": "NPC",
+                "text": "Enough for a new set of limbs, if you're lucky."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "Where do I start?"
+            }
+        ]
+    },
+    {
+        "npc name": "El Jefe",
+        "ethnicity": "hispanic",
+        "role": "Bounty Hunter",
+        "quest": "You're being hunted by a powerful crime syndicate. I need you to retrieve a stolen data chip from their hideout before they realize it's missing.",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "Yo, stranger. You got the guts to take this job? The Syndicate’s got eyes everywhere."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "What’s in it for me?"
+            },
+            {
+                "speaker": "NPC",
+                "text": "A tidy sum and a clean record. But don’t think I won’t come after you if you mess this up."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "I’ll handle it."
+            }
+        ]
+    },
+    {
+        "npc name": "Jazmine 'Viper' Cross",
+        "ethnicity": "african american",
+        "role": "Thief",
+        "quest": "I need you to steal a data chip from the Black Lotus Syndicate. It contains evidence of their illegal biotech experiments.",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "You're looking for a data chip, right? I know where it is. But I can't get it myself."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "What's in it for me?"
+            },
+            {
+                "speaker": "NPC",
+                "text": "Your cut of the data and a safe passage out of this city. Just don't let them catch you."
+            }
+        ]
+    },
+    {
+        "npc name": "Ling Zhou",
+        "ethnicity": "asian",
+        "role": "Thief",
+        "quest": "I need you to steal a prototype neural implant from the Black Market Syndicate. They're planning to use it for mind control.",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "You're not the first to ask, but I've seen what they're planning. You have to stop them."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "Where do I start?"
+            }
+        ]
+    }
+]
