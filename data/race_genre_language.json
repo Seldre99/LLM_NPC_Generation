@@ -1,0 +1,113 @@
+{
+  "english": {
+    "genres": [
+      "Fantasy rpg",
+      "Contemporary Open World",
+      "Cyberpunk",
+      "Crime"
+    ],
+    "npc_races": [
+      "black person",
+      "caucasian",
+      "hispanic",
+      "african american",
+      "asian"
+    ]
+  },
+
+  "italian": {
+    "genres": [
+      "Fantasy rpg",
+      "Open World Contemporaneo",
+      "Cyberpunk",
+      "Crime"
+    ],
+    "npc_races": [
+      "persona di colore",
+      "caucasico",
+      "ispanico",
+      "afro-americano",
+      "asiatico"
+    ]
+  },
+
+  "chinese": {
+    "genres": [
+      "奇幻角色扮演遊戲",
+      "現代開放世界遊戲",
+      "賽博朋克遊戲",
+      "犯罪遊戲"
+    ],
+    "npc_races": [
+      "有色人種",
+      "白人",
+      "西班牙裔",
+      "非裔美國人",
+      "亞裔"
+    ]
+  },
+
+  "japanese": {
+    "genres": [
+      "ファンタジーRPG",
+      "現代オープンワールド",
+      "サイバーパンク",
+      "犯罪"
+    ],
+    "npc_races": [
+      "黒人",
+      "白人",
+      "ヒスパニック系",
+      "アフリカ系アメリカ人",
+      "アジア人"
+    ]
+  },
+
+  "spanish": {
+    "genres": [
+      "RPG de fantasía",
+      "Mundo abierto contemporáneo",
+      "Ciberpunk",
+      "Crimen"
+    ],
+    "npc_races": [
+      "persona de color",
+      "caucásica",
+      "hispana",
+      "afroamericana",
+      "asiática"
+    ]
+  },
+
+  "russian": {
+    "genres": [
+      "Фэнтези-RPG",
+      "Современный открытый мир",
+      "Киберпанк",
+      "Криминал"
+    ],
+    "npc_races": [
+      "цветной человек",
+      "европеец",
+      "латиноамериканец",
+      "афроамериканец",
+      "азиат"
+    ]
+  },
+
+  "hindi": {
+    "genres": [
+      "Fantasy RPG",
+      "कंटेंपररी ओपन वर्ल्ड",
+      "साइबरपंक",
+      "क्राइम"
+    ],
+    "npc_races": [
+      "अश्वेत व्यक्ति",
+      "गोरे",
+      "हिस्पैनिक",
+      "अफ़्रीकी-अमेरिकी",
+      "एशियाई"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "english": {
+    "role": [
+      "Fighter",
+      "Barbarian",
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Monk",
+      "Paladin",
+      "Ranger",
+      "Rogue",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ]
+  },
+
+  "italian": {
+    "role": [
+      "Guerriero",
+      "Barbaro",
+      "Bardo",
+      "Chierico",
+      "Druido",
+      "Monaco",
+      "Paladino",
+      "Ranger",
+      "Ladro",
+      "Stregone",
+      "Warlock",
+      "Mago"
+    ]
+  }
+
+
+}

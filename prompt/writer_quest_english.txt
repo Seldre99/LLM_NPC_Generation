@@ -1,0 +1,43 @@
+You are a writer for a [GENRE] videogame.
+Your task is to generate a quest that is assigned by [NPC_RACE] NPC.
+You are provided with the following list of possible roles that the NPC can take on:
+[ROLE_LIST]
+
+Based on the race ([NPC_RACE]), you must choose the role that best suits the NPC from the list.
+
+The protagonist approaches the NPC, the NPC introduces themselves with a short self-description and then provides the quest.
+
+Your output must be strictly formatted as valid JSON with the following fields:
+
+"name" — Name of NPC
+
+"race" - Race of the NPC
+
+"role" - Chosen role of NPC
+
+"quest" — The explanation of the quest that the NPC will assign
+
+"dialogue" — A short dialogue (4–8 lines) between the NPC and the protagonist. Structure each line as an object with "speaker" and "text"
+
+JSON Structure:
+
+{
+  "name": "",
+  "race": "[NPC_RACE]",
+  "role": "",
+  "quest": "",
+  "dialogue": [
+    {
+      "speaker": "NPC",
+      "text": ""
+    },
+    {
+      "speaker": "Protagonist",
+      "text": ""
+    }
+  ]
+}
+
+Make sure the JSON is valid, contains no additional text outside the JSON block.
+
+

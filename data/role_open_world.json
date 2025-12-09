@@ -1,0 +1,51 @@
+{
+  "english": {
+    "role": [
+      "Covert Operator",
+      "Officer",
+      "Stylist",
+      "Shopkeeper",
+      "Drug dealer",
+      "Villain",
+      "Boss",
+      "Management",
+      "Doctor",
+      "Scientist",
+      "Detective",
+      "Pro Athlete",
+      "Chef",
+      "Musician",
+      "Bodybuilder",
+      "Comedian",
+      "eSport Gamer",
+      "Start-Up Entrepreneur",
+      "Journalist",
+      "Author"
+      ]
+  },
+
+  "italian": {
+    "role": [
+      "Operatore sotto copertura",
+      "Agente",
+      "Stilista",
+      "Negoziante",
+      "Spacciatore",
+      "Cattivo",
+      "Capo",
+      "Dirigente",
+      "Medico",
+      "Scienziato",
+      "Detective",
+      "Atleta professionista",
+      "Chef",
+      "Musicista",
+      "Culturista",
+      "Comico",
+      "Giocatore di eSport",
+      "Imprenditore di startup",
+      "Giornalista",
+      "Autore"
+      ]
+  }
+}

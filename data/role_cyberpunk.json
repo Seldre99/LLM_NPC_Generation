@@ -1,0 +1,39 @@
+{
+  "english": {
+    "role": [
+      "Ex-Cyber Soldier",
+      "Bodyguard",
+      "Bounty Hunter",
+      "Street Samurai",
+      "Assassin",
+      "US Soldier",
+      "Nomad",
+      "Policeman",
+      "S.W.A.T",
+      "Outlaw",
+      "Black Market Merchant",
+      "Informant",
+      "Thief",
+      "Street Punk"
+    ]
+  },
+
+  "italian": {
+    "role": [
+      "Ex-Cybersoldato",
+      "Guardia del corpo",
+      "Cacciatore di taglie",
+      "Samurai di strada",
+      "Assassino",
+      "Soldato U.S.",
+      "Nomade",
+      "Poliziotto",
+      "S.W.A.T",
+      "Fuorilegge",
+      "Mercante nero",
+      "Informatore",
+      "Ladro",
+      "Punk di strada"
+    ]
+  }
+}

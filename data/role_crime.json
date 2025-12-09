@@ -1,0 +1,37 @@
+{
+  "english": {
+    "role": [
+      "Detective",
+      "Informant",
+      "Fence",
+      "Crime Boss",
+      "Underboss",
+      "Enforcer",
+      "Corrupt Cop",
+      "Policeman",
+      "Lawyer",
+      "Bartender",
+      "Fixer",
+      "Arms Dealer",
+      "Hacker"
+    ]
+  },
+
+  "italian": {
+    "role": [
+      "Detective",
+      "Informatore",
+      "Mercante di refurtiva",
+      "Capo famiglia",
+      "Consigliere",
+      "Scagnozzo",
+      "Poliziotto corrotto",
+      "Poliziotto",
+      "Avvocato",
+      "Proprietario di un locale",
+      "Mediatore",
+      "Trafficante d'armi",
+      "Hacker"
+    ]
+  }
+}
