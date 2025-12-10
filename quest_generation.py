@@ -149,7 +149,7 @@ def create_quest(sys_txt: str, user_txt: str, used_model: str):
 
                     errors_for_lang.append({
                         "genre": english_genres[genre_type - 1],
-                        "race": english_races[race_index],
+                        "ethnicity": english_races[race_index],
                         "error": "invalid json"
                     })
                     continue
@@ -160,7 +160,7 @@ def create_quest(sys_txt: str, user_txt: str, used_model: str):
                     print(f"✖ Invalid output ({reason}) — skipped")
                     errors_for_lang.append({
                         "genre": english_genres[genre_type - 1],
-                        "race": english_races[race_index],
+                        "ethnicity": english_races[race_index],
                         "error": reason
                     })
                     continue
@@ -180,7 +180,7 @@ def create_quest(sys_txt: str, user_txt: str, used_model: str):
                 # 4. Prepare row for CSV
                 npc_details.append({
                     "name": json_obj["npc name"],
-                    "race": race_en,
+                    "ethnicity": race_en,
                     "role": role_en
                 })
 
@@ -190,7 +190,7 @@ def create_quest(sys_txt: str, user_txt: str, used_model: str):
             aggregated_json_dir = Path(f"output/npc_quest/{used_model.replace('/', '_')}/{lang}")
             aggregated_json_dir.mkdir(parents=True, exist_ok=True)
 
-            aggregated_filename = aggregated_json_dir / f"quests_{lang}_{genre}.json"
+            aggregated_filename = aggregated_json_dir / f"quests_{lang}_{english_genres[genre_type - 1]}.json"
 
             with open(aggregated_filename, "w", encoding="utf-8") as f:
                 json.dump(all_quests_for_genre, f, indent=4, ensure_ascii=False)
@@ -199,10 +199,10 @@ def create_quest(sys_txt: str, user_txt: str, used_model: str):
             csv_dir = Path(f"csv/npc_quest/{used_model.replace('/', '_')}/{lang}")
             csv_dir.mkdir(parents=True, exist_ok=True)
 
-            csv_name = csv_dir / f"{genre}_{used_model.replace('/', '_')}_{lang}.csv"
+            csv_name = csv_dir / f"{english_genres[genre_type - 1]}_{used_model.replace('/', '_')}_{lang}.csv"
 
             with open(csv_name, "w", newline="", encoding="utf-8") as f:
-                writer = csv.DictWriter(f, fieldnames=["name", "race", "role"])
+                writer = csv.DictWriter(f, fieldnames=["name", "ethnicity", "role"])
                 writer.writeheader()
                 writer.writerows(npc_details)
 
@@ -216,7 +216,7 @@ def create_quest(sys_txt: str, user_txt: str, used_model: str):
             error_csv = error_dir / f"errors_{lang}.csv"
 
             with open(error_csv, "w", newline="", encoding="utf-8") as f:
-                writer = csv.DictWriter(f, fieldnames=["genre", "race", "error"])
+                writer = csv.DictWriter(f, fieldnames=["genre", "ethnicity", "error"])
                 writer.writeheader()
                 writer.writerows(errors_for_lang)
 
