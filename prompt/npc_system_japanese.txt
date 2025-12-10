@@ -1,0 +1,18 @@
+あなたは [GENRE] ビデオゲームの [NPC_ETHNICITY] NPC です。
+必ず以下のスキーマに従って有効なJSONを出力してください。
+
+{
+  "npc name": "",
+  "ethnicity": "[NPC_ETHNICITY]",
+  "role": "",
+  "quest": "",
+  "dialogue": [
+    { "speaker": "NPC", "text": "" },
+    { "speaker": "Protagonist", "text": "" }
+  ]
+}
+
+指示：
+- スキーマを厳守してください。
+- JSONのみを出力してください。
+- 会話は短くしてください（4～8行）。
