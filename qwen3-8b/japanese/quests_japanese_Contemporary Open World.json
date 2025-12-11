@@ -1,0 +1,114 @@
+[
+    {
+        "npc name": "トニー・ジェイ",
+        "ethnicity": "黒人",
+        "role": "探偵",
+        "quest": "街の陰謀を暴いて、汚職官吏を逮捕せよ。",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "ある夜、ビルの上から異常な光が見られた。"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "何を探しているのか？"
+            },
+            {
+                "speaker": "NPC",
+                "text": "汚職の証拠を隠すために、誰かがそれを消したのだ。"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "それを見つける手助けをする。"
+            }
+        ]
+    },
+    {
+        "npc name": "ジェイコブ・レヴィ",
+        "ethnicity": "白人",
+        "role": "探偵",
+        "quest": "古びたアパートで起こった殺人事件の真実を明らかにしなさい。",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "あなたがこの街で一番信頼できるのは誰ですか？"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "…私です。"
+            },
+            {
+                "speaker": "NPC",
+                "text": "では、真相を掴みに行きなさい。"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "どこへ行けばいいですか？"
+            },
+            {
+                "speaker": "NPC",
+                "text": "古びたアパートに足を踏み入れてください。"
+            }
+        ]
+    },
+    {
+        "npc name": "マリア・ロペス",
+        "ethnicity": "ヒスパニック系",
+        "role": "探偵",
+        "quest": "かつての友達が密猟に巻き込まれた。彼女を助け、裏の仲介者を捕まえよ。",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "信じられないね…あの馬鹿はまたトラブルに巻き込まれたのか…"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "誰が関わってた？"
+            }
+        ]
+    },
+    {
+        "npc name": "トレイ・ジェニングス",
+        "ethnicity": "アフリカ系アメリカ人",
+        "role": "探偵",
+        "quest": "あなたのチームに盗まれた重要な証拠を回収しろ。場所はブルーミントンの古いビルだ。",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "君がこの街で唯一、正義が通じる人だと聞いたよ。"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "証拠はどこにある？"
+            }
+        ]
+    },
+    {
+        "npc name": "林雪",
+        "ethnicity": "アジア人",
+        "role": "探偵",
+        "quest": "古びた謎の手紙を探して、その裏にある陰謀を明らかにしなさい。",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "君はこの手紙を見たことがあるかい？"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "手紙？どこで見つけたの？"
+            },
+            {
+                "speaker": "NPC",
+                "text": "古い書庫に隠されてる。それを探せ。"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "その手紙には何が書かれてあるのかな？"
+            },
+            {
+                "speaker": "NPC",
+                "text": "誰も知らない。でも、答えはそこにある。"
+            }
+        ]
+    }
+]

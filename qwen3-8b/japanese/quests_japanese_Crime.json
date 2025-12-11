@@ -1,0 +1,162 @@
+[
+    {
+        "npc name": "トニー",
+        "ethnicity": "黒人",
+        "role": "フィクサー",
+        "quest": "捜査の裏で動いている人物の情報を入手し、彼に会いに行け。",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "俺はこの街の裏事情を知ってる。君が調査している事件には、ある人物が関係してる。"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "誰？どこにいる？"
+            },
+            {
+                "speaker": "NPC",
+                "text": "彼は東部市場で活動してんだ。だが、そこには危険がいっぱいだ。"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "俺は勝てない。他の方法があるか？"
+            },
+            {
+                "speaker": "NPC",
+                "text": "情報を得るために、俺に協力してくれ。俺はその人物の行動を知ってる。"
+            }
+        ]
+    },
+    {
+        "npc name": "ジェイコブ・ハルバート",
+        "ethnicity": "白人",
+        "role": "情報提供者",
+        "quest": "コンピューターネットワーク内に隠された証拠を入手し、警察に届けろ。",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "君は俺の情報を欲しければ、そのネットワークに入る準備を整えなさい。"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "どこへ行けばいい？"
+            },
+            {
+                "speaker": "NPC",
+                "text": "ビルの地下に潜むフィクサーがそれを知っている。"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "そのフィクサーとは誰だ？"
+            },
+            {
+                "speaker": "NPC",
+                "text": "彼は『オレンジ・スカイ』という名前で呼ばれている。"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "どこにいるのか？"
+            },
+            {
+                "speaker": "NPC",
+                "text": "東部市場の裏手だ。そこを調べてみてくれ。"
+            }
+        ]
+    },
+    {
+        "npc name": "ラモン",
+        "ethnicity": "ヒスパニック系",
+        "role": "情報提供者",
+        "quest": "マフィアの密輸ルートに関する情報を入手し、それを主人公に伝える。",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "君はここに来るな。俺には必要な情報がある。"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "何が欲しい？"
+            },
+            {
+                "speaker": "NPC",
+                "text": "マフィアの密輸ルートを教えてくれれば、情報を渡す。"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "どこで取る？"
+            },
+            {
+                "speaker": "NPC",
+                "text": "その情報は、俺が知っているから。だが、俺も危険にさらされる。"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "それなら協力する。"
+            }
+        ]
+    },
+    {
+        "npc name": "ジェイ・スミス",
+        "ethnicity": "アフリカ系アメリカ人",
+        "role": "フィクサー",
+        "quest": "あなたのチームに新しい武器を届けるため、地下の軍需品市場へ潜入してみろ。",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "やる気があるなら、この手の仕事は慣れてるさ。"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "どこに潜んでいる？"
+            },
+            {
+                "speaker": "NPC",
+                "text": "10番街の下にある地下市場だ。"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "危険な場所だろ。"
+            },
+            {
+                "speaker": "NPC",
+                "text": "それが仕事の醍醐味さ。"
+            }
+        ]
+    },
+    {
+        "npc name": "李 雷",
+        "ethnicity": "アジア人",
+        "role": "情報提供者",
+        "quest": "かつての仲間が隠した宝物の場所を教えてくれ。",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "私はかつての仲間に情報を知っている。だが、その情報は高い代償を払う必要がある。"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "何が必要？"
+            },
+            {
+                "speaker": "NPC",
+                "text": "私の命を守ってあげるなら、情報を渡す。"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "それなら話していい。"
+            },
+            {
+                "speaker": "NPC",
+                "text": "場所は山奥の洞窟だ。だが、そこには警備が厳重だ。"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "どうやって行く？"
+            },
+            {
+                "speaker": "NPC",
+                "text": "夜に近道がある。その秘密を教えてくれたのは、かつての仲間だった。"
+            }
+        ]
+    }
+]

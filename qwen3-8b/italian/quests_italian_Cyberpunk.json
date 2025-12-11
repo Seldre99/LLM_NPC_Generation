@@ -1,0 +1,130 @@
+[
+    {
+        "npc name": "Jazmine Voss",
+        "ethnicity": "persona di colore",
+        "role": "Cacciatore di taglie",
+        "quest": "Devi trovare e uccidere il mercante nero 'Kairos' che ha rubato un chip biometrico da un'ex cyberunità. Il chip è stato sotterrato in una zona industriale abbandonata a sud della città.",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "Ascolta, ragazzo. Ho bisogno che tu faccia qualcosa per me. Un mercante nero ha rubato un chip molto importante."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "Cosa posso fare per te?"
+            },
+            {
+                "speaker": "NPC",
+                "text": "Trova e uccidi Kairos. Il chip è nascosto in una zona industriale abbandonata. Non hai tempo da perdere."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "Dove si trova questa zona?"
+            }
+        ]
+    },
+    {
+        "npc name": "Viktor Kane",
+        "ethnicity": "caucasico",
+        "role": "Cacciatore di taglie",
+        "quest": "Devi trovare e uccidere un ex-comandante dei Cybernetics Industries che ha fuggito dopo aver svolto operazioni illegali. È stato visto nell'area di Night City Sud.",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "Hai sentito parlare del 'Cinghiale Bianco'? È un ex-comandante che ha fatto molto male ai nostri quartieri."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "Perché vuoi che lo uccida?"
+            },
+            {
+                "speaker": "NPC",
+                "text": "Per vendetta. Ma anche per fermare la sua attività criminale."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "Dove posso trovarlo?"
+            },
+            {
+                "speaker": "NPC",
+                "text": "Nel Sud, nel quartiere di Rokuro. Se vuoi vivere, sii veloce."
+            }
+        ]
+    },
+    {
+        "npc name": "Miguel 'El Viento' Sánchez",
+        "ethnicity": "ispanico",
+        "role": "Cacciatore di taglie",
+        "quest": "Devi trovare e consegnare un ex collega che è fuggito dopo aver ucciso un alto funzionario della corporation. È stato visto nei bassifondi di Neo-Tokyo.",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "Hai sentito parlare del 'Vento'? È un fantasma che si muove tra le ombre. Se vuoi soldi, devi trovarlo."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "Dove devo cercarlo?"
+            },
+            {
+                "speaker": "NPC",
+                "text": "Nei quartieri di Kowloon, dove i ricchi non osano andare. Se lo trovi, porta lui stesso a me."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "E se non lo trovo?"
+            },
+            {
+                "speaker": "NPC",
+                "text": "Allora potresti finire come lui... o peggio."
+            }
+        ]
+    },
+    {
+        "npc name": "Jax 'Razor' Mitchell",
+        "ethnicity": "afro-americano",
+        "role": "Cacciatore di taglie",
+        "quest": "Hai sentito parlare dell'uomo che ha ucciso il mio fratello? Trova chi lo ha mandato e porta la sua testa a me nel quartiere di Night City.",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "Mio fratello è stato ucciso da un uomo in maschera. Non so chi sia, ma voglio giustizia."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "Perché pensi che sia stato lui? Hai prove?"
+            },
+            {
+                "speaker": "NPC",
+                "text": "Sì, ha lasciato un oggetto sul luogo del crimine. È il segno di una famiglia molto potente."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "Dove posso trovarlo?"
+            }
+        ]
+    },
+    {
+        "npc name": "Kai Ren",
+        "ethnicity": "asiatico",
+        "role": "Cacciatore di taglie",
+        "quest": "Hai sentito parlare del 'Ratto Bianco'? È un criminale che ha rubato dati sensibili da una corporazione. Trovalo e consegnalo a una fonte anonima prima che possa scappare in Giappone.",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "Senti, io ho bisogno di un uomo d'affari. Il 'Ratto Bianco' è sul punto di sparire nel nulla."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "Chi è questo 'Ratto Bianco'? Quali informazioni ha?"
+            },
+            {
+                "speaker": "NPC",
+                "text": "Non so molto, ma se lo trovi, potresti guadagnare un bel po' di soldi."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "Dove devo cercarlo?"
+            }
+        ]
+    }
+]

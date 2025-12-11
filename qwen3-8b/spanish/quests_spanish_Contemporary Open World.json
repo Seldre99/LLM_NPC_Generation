@@ -1,0 +1,122 @@
+[
+    {
+        "npc name": "Tyrone",
+        "ethnicity": "persona de color",
+        "role": "Traficante de drogas",
+        "quest": "Localiza la ubicación del punto de distribución en el barrio oriental y reporta cualquier actividad sospechosa.",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "¿Eres nuevo por aquí, muchacho? Escucha, tengo una misión para ti. Si quieres ganar algunos dólares rápido, busca el punto de distribución en el barrio oriental."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "¿Qué tipo de cosas venden allí?"
+            },
+            {
+                "speaker": "NPC",
+                "text": "No me hagas preguntas. Solo haz lo que te digo y te pagaré bien."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "¿Y qué pasa si veo algo sospechoso?"
+            },
+            {
+                "speaker": "NPC",
+                "text": "Llámame al número que está en la pared del callejón. No me hagas esperar."
+            }
+        ]
+    },
+    {
+        "npc name": "Lena Voss",
+        "ethnicity": "caucásica",
+        "role": "Traficante de drogas",
+        "quest": "Elige entre entregar una carga de cocaína o ayudar a un traficante que se ha convertido en blanco del FBI.",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "¿Sabes qué? Me han ofrecido un trato interesante. Si entregas esa carga, te dejaré tranquilo... por ahora."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "No me digas que estás metido en algo más grande de lo que parece."
+            },
+            {
+                "speaker": "NPC",
+                "text": "Tienes razón. El FBI ya está sobre mí, y si no haces algo, perderé a mi hermano."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "¿Qué quieres que haga exactamente?"
+            }
+        ]
+    },
+    {
+        "npc name": "Carla Márquez",
+        "ethnicity": "hispana",
+        "role": "Traficante de drogas",
+        "quest": "Elige entre dos opciones: entregar una carga a un cliente en el barrio de La Vega o infiltrarte en la base del cartel para encontrar pruebas de su actividad ilegal.",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "¿Eres suficientemente valiente para hacer lo que hago yo? Si quieres sobrevivir, elige tu camino ahora."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "Quiero entregar la carga. ¿Dónde está el cliente?"
+            }
+        ]
+    },
+    {
+        "npc name": "Tasha Morgan",
+        "ethnicity": "afroamericana",
+        "role": "Traficante de drogas",
+        "quest": "Encuentra una carga de marihuana en el puerto y lleva la evidencia a los agentes federales antes de que se escape.",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "Escucha, muchacho. Tengo un trabajo para ti. Si quieres sobrevivir, trae esa carga al puerto y déjala en manos de la ley."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "¿Por qué me lo pides tú? ¿Qué te mueve?"
+            },
+            {
+                "speaker": "NPC",
+                "text": "Porque no soy tonta. Si esa droga sale del puerto, toda esta zona se quemará. Ayúdame y te pago bien."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "¿Y si no lo hago?"
+            },
+            {
+                "speaker": "NPC",
+                "text": "Entonces tendrás que enfrentar a más gente como yo. Y créeme, no serás el último."
+            }
+        ]
+    },
+    {
+        "npc name": "Lina Chen",
+        "ethnicity": "asiática",
+        "role": "Traficante de drogas",
+        "quest": "Encuentra una carga oculta de cocaína que se está transportando por la ciudad.",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "¡Escucha, muchacho! Tengo un trabajo para ti. Se están moviendo kilos en el puerto, pero no quiero meterme directamente. ¿Puedes ayudarme a encontrarlos?"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "¿Por qué me lo dices? ¿Qué te mueve?"
+            },
+            {
+                "speaker": "NPC",
+                "text": "No es por mí, es por mi hermana. Si no la saco de este lío, perderá su libertad. Ayúdame y te pagaré bien."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "¿Dónde está la carga? ¿Cómo sé que no me estoy metiendo en algo peligroso?"
+            }
+        ]
+    }
+]

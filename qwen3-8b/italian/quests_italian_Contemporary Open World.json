@@ -1,0 +1,122 @@
+[
+    {
+        "npc name": "Tyrone",
+        "ethnicity": "persona di colore",
+        "role": "Spacciatore",
+        "quest": "Hai sentito parlare di un nuovo tipo di droga che sta circolando nel quartiere? Ti ho visto in giro, e penso che tu abbia le capacità per indagare. Trova chi la distribuisce e scopri dove viene venduta.",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "Ciao, ragazzo. Hai mai sentito parlare di 'Nyx'? È una nuova sostanza che sta prendendo piede qua intorno."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "Non ne ho mai sentito parlare, ma posso cercare di scoprirne di più."
+            },
+            {
+                "speaker": "NPC",
+                "text": "Bene. Ti conviene stare attento. Chiunque la distribuisce è molto informato e non si fa vedere in giro."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "Dove posso cominciare a cercarla?"
+            }
+        ]
+    },
+    {
+        "npc name": "Marcus Vance",
+        "ethnicity": "caucasico",
+        "role": "Spacciatore",
+        "quest": "Hai sentito parlare di un nuovo tipo di droga che sta circolando nel quartiere? Il mio amico ha perso la sua ragazza a causa di questa sostanza. Devi trovare il produttore e distruggerlo prima che ne venga danneggiata un'altra persona.",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "Hai mai sentito parlare del 'Black Mist'? È una droga pericolosa che sta uccidendo la gente."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "Non ne ho idea. Dove posso trovarne tracce?"
+            },
+            {
+                "speaker": "NPC",
+                "text": "Cerca nel quartiere di Southside, dove i ragazzi della zona ne parlano."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "Okay, ti farò sapere quando avrò informazioni."
+            }
+        ]
+    },
+    {
+        "npc name": "Carlos Mendoza",
+        "ethnicity": "ispanico",
+        "role": "Spacciatore",
+        "quest": "Hai sentito parlare di un gruppo che distribuisce droga senza usare il traffico tradizionale? Devi scoprire dove si incontrano e riferire al tuo superiore.",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "Senti, ragazzo, se vuoi vivere in pace, devi stare lontano da quelle cose. Ma se sei coraggioso, puoi aiutarmi."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "Cosa ti serve?"
+            },
+            {
+                "speaker": "NPC",
+                "text": "Trovami il loro punto di ritrovo e ti darò un premio. Ma non esagerare, altrimenti perderai la tua vita."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "Dove posso iniziare?"
+            }
+        ]
+    },
+    {
+        "npc name": "Marcus Johnson",
+        "ethnicity": "afro-americano",
+        "role": "Spacciatore",
+        "quest": "Hai sentito parlare di un nuovo tipo di erba che sta circolando nella zona? Devo scoprire da dove viene e chi la distribuisce. Se riesci a trovare l'origine, ti pagherò bene.",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "Sai qualcosa su quelle nuove tracce di erba che si stanno diffondendo? Ho bisogno di un occhio sveglio."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "Cosa vuoi dire con 'nuove tracce'? Qualcuno ne sta vendendo in giro?"
+            },
+            {
+                "speaker": "NPC",
+                "text": "Esatto. È molto più potente di quelle che circolavano prima, e non so da dove arrivi."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "Dove posso trovarla? Chi la vende?"
+            }
+        ]
+    },
+    {
+        "npc name": "Liang",
+        "ethnicity": "asiatico",
+        "role": "Spacciatore",
+        "quest": "Hai sentito parlare di un gruppo che distribuisce droga in tutta la zona? Devi trovare il loro punto di consegna e riferire le informazioni al tuo contatto.",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "Sai, ho sentito dire che c'è un gruppo che vende droga in giro per la città. Se vuoi trovare chi è responsabile, devi scoprire dove si incontrano."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "Dove posso iniziare a cercarli?"
+            },
+            {
+                "speaker": "NPC",
+                "text": "Vai al quartiere industriale. Lì si incontrano spesso per i trasporti."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "Grazie, ti farò sapere."
+            }
+        ]
+    }
+]

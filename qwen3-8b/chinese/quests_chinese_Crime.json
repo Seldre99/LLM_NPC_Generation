@@ -1,0 +1,142 @@
+[
+    {
+        "npc name": "雷蒙·柯克",
+        "ethnicity": "有色人種",
+        "role": "軍火商",
+        "quest": "找到一批被藏在舊倉庫的非法槍支，並確保它們不落入敵對幫派手中。",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "你聽說了嗎？有一批槍支正藏在東區的老倉庫裡。"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "誰會擁有這些武器？"
+            },
+            {
+                "speaker": "NPC",
+                "text": "一個名叫「黑豹」的幫派，他們正在圖謀不軌。"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "我該怎麼做？"
+            },
+            {
+                "speaker": "NPC",
+                "text": "找到它們，然後銷毀，別讓事情 escalate。"
+            }
+        ]
+    },
+    {
+        "npc name": "馬克·羅斯",
+        "ethnicity": "白人",
+        "role": "軍火商",
+        "quest": "你必須找到我失竊的槍枝，否則我的生意會陷入危機。",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "嘿，探員，你聽說了嗎？有人偷了我的武器庫。"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "你確定是有人偷的？還是內部問題？"
+            },
+            {
+                "speaker": "NPC",
+                "text": "我確定是外部人士，但我不敢告訴警方。"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "那我幫你找回槍枝。你給我一個線索。"
+            },
+            {
+                "speaker": "NPC",
+                "text": "他們可能從港口出發，去往南邊的港口城市。"
+            }
+        ]
+    },
+    {
+        "npc name": "卡洛斯·蒙特霍",
+        "ethnicity": "西班牙裔",
+        "role": "軍火商",
+        "quest": "幫我將一批槍支運到港口，換取現金。",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "嘿，你聽說港口有個大單子嗎？"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "什麼樣的單子？"
+            },
+            {
+                "speaker": "NPC",
+                "text": "一批槍支，運到碼頭交給一個戴黑帽子的人。"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "錢多少？"
+            },
+            {
+                "speaker": "NPC",
+                "text": "現金五萬，別問太多問題。"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "我會處理。"
+            }
+        ]
+    },
+    {
+        "npc name": "凱文·馬克",
+        "ethnicity": "非裔美國人",
+        "role": "軍火商",
+        "quest": "幫我把一批槍支運到東區的倉庫，注意別被警方發現。",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "嘿，兄弟，我需要你做個危險的任務。"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "什麼任務？"
+            },
+            {
+                "speaker": "NPC",
+                "text": "運一批槍到東區倉庫，別讓警察發現。"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "錢多嗎？"
+            },
+            {
+                "speaker": "NPC",
+                "text": "夠多了，但要小心點。"
+            }
+        ]
+    },
+    {
+        "npc name": "林子豪",
+        "ethnicity": "亞裔",
+        "role": "軍火商",
+        "quest": "你必須找到我被盜的彈藥庫，並阻止敵對幫派使用它。",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "老弟，我這筆生意出了點問題。"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "什麼問題？"
+            },
+            {
+                "speaker": "NPC",
+                "text": "彈藥庫被偷了，我得趕緊找回來。"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "我可以幫你找。"
+            }
+        ]
+    }
+]

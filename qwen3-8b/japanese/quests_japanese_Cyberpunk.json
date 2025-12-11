@@ -1,0 +1,138 @@
+[
+    {
+        "npc name": "ケネス・ブラック",
+        "ethnicity": "黒人",
+        "role": "暗殺者",
+        "quest": "アフリカ系の地下組織に依頼された、敵対するサイバー企業の幹部を暗殺しなければならない。",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "君はこの街で生き抜くために必要だ。"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "何が待ち受けているのか教えてくれ。"
+            },
+            {
+                "speaker": "NPC",
+                "text": "彼らの頭を取れば、この戦いは終わる。"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "誰を狙うのか？"
+            },
+            {
+                "speaker": "NPC",
+                "text": "グローバル・ネットワーク社のCEOだ。"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "その場所はどこ？"
+            },
+            {
+                "speaker": "NPC",
+                "text": "ネオタワーの地下にいる。"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "行く準備ができている。"
+            }
+        ]
+    },
+    {
+        "npc name": "ジェイク・ホワイト",
+        "ethnicity": "白人",
+        "role": "賞金稼ぎ",
+        "quest": "ノマドの仲間が奪ったデータを回収し、彼に届けろ。",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "さあ、データを手に入れなさい。"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "どこにあるか教えてくれ。"
+            },
+            {
+                "speaker": "NPC",
+                "text": "そのビルの地下に隠してある。"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "行くぞ。"
+            }
+        ]
+    },
+    {
+        "npc name": "ラファエル",
+        "ethnicity": "ヒスパニック系",
+        "role": "ストリートパンク",
+        "quest": "都市の地下で行われる秘密のマネーロンダリングを止める。",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "俺がこの街にいるのは、誰かが背中を押してくれたからだ。"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "何がしたい？"
+            },
+            {
+                "speaker": "NPC",
+                "text": "地下の金庫を開けろ。それさえやれば、俺は逃げる。"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "なぜそんなことをするのか？"
+            },
+            {
+                "speaker": "NPC",
+                "text": "金がないと、この街で生きていられない。"
+            }
+        ]
+    },
+    {
+        "npc name": "ジュリアン・ブラック",
+        "ethnicity": "アフリカ系アメリカ人",
+        "role": "暗殺者",
+        "quest": "敵対勢力の幹部を暗殺し、その情報を手に入れよ。",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "君が俺の刃を振りかざすのなら、任務は成立だ。"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "情報と報酬で、俺たちの道を切り開く。"
+            }
+        ]
+    },
+    {
+        "npc name": "リー・チャン",
+        "ethnicity": "アジア人",
+        "role": "暗殺者",
+        "quest": "敵の幹部を暗殺し、その情報を手に入れろ。",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "君がこの仕事に適しているのは間違いない。"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "なぜ私を選ぶ？"
+            },
+            {
+                "speaker": "NPC",
+                "text": "彼の情報は、この街を救うための鍵だ。"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "では、どこで始める？"
+            },
+            {
+                "speaker": "NPC",
+                "text": "夜のビルダーに会いなさい。そこが入口だ。"
+            }
+        ]
+    }
+]
