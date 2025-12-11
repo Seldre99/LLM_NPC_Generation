@@ -1,0 +1,90 @@
+[
+    {
+        "npc name": "卡蜜拉·約翰遜",
+        "ethnicity": "有色人種",
+        "role": "偵探",
+        "quest": "在本市發生了一系列未破案的命案，需要你調查並找出真兇。這將是一個危險的任務，但只有你能拯救更多無辜的人免於傷害。",
+        "dialogue": [
+            {
+                "speaker": "卡蜜拉·約翰遜",
+                "text": "嗨，我是卡蜜拉·約翰遜，本地偵探局的偵探。我需要你的幫助，年輕人。最近發生了一系列命案， Police部門無法破解這些案件。"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "好的，卡蜜拉女士，您想要我做什麼？"
+            },
+            {
+                "speaker": "卡蜜拉·約翰遜",
+                "text": "你需要調查這些案件，找出共同點，然後尋找線索。但要小心，真兇非常狡猾，也很危險。"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "我會小心的，卡蜜拉女士。我們什麼時候開始？"
+            }
+        ]
+    },
+    {
+        "npc name": "約翰·道爾",
+        "ethnicity": "白人",
+        "role": "偵探",
+        "quest": "尋找被盜的重要文件",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "嗨，你好。我是約翰·道爾偵探。我這裡有個案子需要你的幫忙。有人竊取了我的一份非常關鍵的文件，我需要你的眼睛和耳朵在街上找一找消息。這對我們 beiden很重要。"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "好的，道爾偵探。你能告訴我更多關於被盜文件的信息嗎？"
+            }
+        ]
+    },
+    {
+        "npc name": "Miguel Rodriguez",
+        "ethnicity": "西班牙裔",
+        "role": "偵探",
+        "quest": "在黑市上流傳的新式麻醉品導致了本地青少年的死亡， Miguel 需要主角的幫助來調查這件事。",
+        "dialogue": [
+            {
+                "speaker": "Miguel Rodriguez",
+                "text": "嗨，你好像是個能幹的人。我需要一個像你這樣的人幫助我解決一起案子。"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "哦，好的，什麼案子？"
+            },
+            {
+                "speaker": "Miguel Rodriguez",
+                "text": "本地青少年的死亡正在增加，原因是一種新的麻醉品流入了黑市。我需要你幫助我找到這玩意兒的來源。"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": " sound dangerous, but I'm in."
+            }
+        ]
+    },
+    {
+        "npc name": "李建成",
+        "ethnicity": "亞裔",
+        "role": "偵探",
+        "quest": "調查最近的黑幫活動，並且需要一名可信賴的眼線提供情報。",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "嗨，我是李建成。你聽說過最近的黑幫活動嗎？"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "有所耳聞，但不清楚細節。"
+            },
+            {
+                "speaker": "NPC",
+                "text": "我需要一個眼線，你能幫忙嗎？"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "我會試試看的。"
+            }
+        ]
+    }
+]

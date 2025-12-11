@@ -1,0 +1,90 @@
+[
+    {
+        "npc name": "Kai",
+        "ethnicity": "persona di colore",
+        "role": "Cacciatore di taglie",
+        "quest": "Recupero di un chip rubato",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "Salve, amico. Sono Kai, un cacciatore di taglie. Ho bisogno del tuo aiuto per recuperare un importante chip rubato."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "E cosa ci guadagno io in tutto questo?"
+            }
+        ]
+    },
+    {
+        "npc name": "Victor Kane",
+        "ethnicity": "caucasico",
+        "role": "Ex-Cybersoldato",
+        "quest": "Recupera il chip dati contenente informazioni riservate sull'azienda che mi ha licenziato.",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "Ehi, amico. Ho bisogno del tuo aiuto per recuperare un chip dati importante."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "Di cosa si tratta?"
+            },
+            {
+                "speaker": "NPC",
+                "text": "Contiene informazioni riservate sull'azienda che mi ha licenziato. Ho bisogno di dimostrare il loro inganno."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "Quanto mi offri per questo lavoro?"
+            }
+        ]
+    },
+    {
+        "npc name": "Ramon",
+        "ethnicity": "ispanico",
+        "role": "Mercante nero",
+        "quest": "Recuperare una microcarta rubata che contiene informazioni preziose per la sicurezza della città.",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "Hola, amigo. Ho bisogno del tuo aiuto per recuperare qualcosa di molto prezioso che mi è stato rubato."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "Di cosa si tratta e chi l'ha preso?"
+            },
+            {
+                "speaker": "NPC",
+                "text": "È una microcarta con informazioni importanti. È stata presa da un gruppo di cyberpunk che operate nella zona sud della città."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "Quanto sei disposto a pagare per riaverla?"
+            },
+            {
+                "speaker": "NPC",
+                "text": "Posso darti 5000 eddies e un lavoro futuro con me, se riesci a recuperarla."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "Affare fatto. Dove posso trovare questi cyberpunk?"
+            }
+        ]
+    },
+    {
+        "npc name": "Kenji",
+        "ethnicity": "asiatico",
+        "role": "Informatore",
+        "quest": "Scoprire la verità dietro l'ultimo attentato cybernetico.",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "Salve, ho informazioni importanti per te. Ultimamente ci sono stati troppi attacchi cybernetici in città e credo che sia ora di scoprire chi c'è dietro tutto questo."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "Cosa sai sugli ultimi attentati? E come posso aiutarti a scoprire la verità?"
+            }
+        ]
+    }
+]

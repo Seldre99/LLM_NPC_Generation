@@ -1,0 +1,70 @@
+[
+    {
+        "npc name": "Ana Rodriguez",
+        "ethnicity": "hispana",
+        "role": "Oficial",
+        "quest": "Ayudar a encontrar a un traficante de drogas en el distrito.",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "Hola, necesito tu ayuda. Estamos buscando a un traficante de drogas que opera en este distrito."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "Claro, ¿en qué puedo ayudarte?"
+            },
+            {
+                "speaker": "NPC",
+                "text": "Tenemos información de que estará cerca del puerto esta noche. Necesitamos que lo encuentres y nos avises."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "Entendido, estaré allí esta noche."
+            }
+        ]
+    },
+    {
+        "npc name": "Donna Washington",
+        "ethnicity": "afroamericana",
+        "role": "Detective",
+        "quest": "El detective Washington está investigando un caso de robo en la zona. Necesita que el protagonista ayude a recopilar información y encuentre pruebas para resolver el caso.",
+        "dialogue": [
+            {
+                "speaker": "Donna",
+                "text": "Hola, gracias por ayudarme. Como sabrás, hemos tenido algunos problemas con los robos en la zona y necesito tu ayuda para resolverlos."
+            },
+            {
+                "speaker": "Protagonista",
+                "text": "Claro, ¿en qué puedo ayudarte?"
+            }
+        ]
+    },
+    {
+        "npc name": "Yumi Nakamura",
+        "ethnicity": "asiática",
+        "role": "Operador encubierto",
+        "quest": "Recuperar información confidencial de un traficante local antes de que se revele al público.",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "Hola, soy Yumi. Escuché que eres buen detective en tu tiempo libre."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "Sí, me encargo de algunas cosas aquí y allá."
+            },
+            {
+                "speaker": "NPC",
+                "text": "Perfecto. Estoy en busca de alguien que pueda recuperar información confidencial de un traficante local."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "¿Qué tipo de información?"
+            },
+            {
+                "speaker": "NPC",
+                "text": "No puedo revelar los detalles, pero es importante mantenerlo fuera del alcance del público."
+            }
+        ]
+    }
+]

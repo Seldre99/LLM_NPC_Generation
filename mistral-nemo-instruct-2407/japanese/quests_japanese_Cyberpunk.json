@@ -1,0 +1,106 @@
+[
+    {
+        "npc name": "ジャレド",
+        "ethnicity": "黒人",
+        "role": "賞金稼ぎ",
+        "quest": "プロタゴニストに指定された目標を狙撃し、報酬を獲得する。ただし、プロタゴニストがこのクエストの真実を知る前に、できるだけ早くこれを達成せよ。",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "Hey there, partner. I hear you're lookin' for someone special."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "Yeah, that's right. You got any leads?"
+            },
+            {
+                "speaker": "NPC",
+                "text": "Well, I might have somethin'. But it'll cost ya. 500 credits and a favor."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "Deal. What's the target?"
+            }
+        ]
+    },
+    {
+        "npc name": "デニス・マクギル",
+        "ethnicity": "白人",
+        "role": "ストリートパンク",
+        "quest": "主人公が町の麻薬組織と戦っている際に、デニスは情報を提供することで助けになります。",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "おい、兄ちゃん。俺はこの辺りのことなら知ってるぜ。麻薬の連中に関してもな。ただし、金が必要だぜ。"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "金はあるよ。話を聞こうじゃないか。"
+            }
+        ]
+    },
+    {
+        "npc name": "ルイス・ロペス",
+        "ethnicity": "ヒスパニック系",
+        "role": "ストリートサムライ",
+        "quest": "街の暴力的なギャング団から住民を守り、平和を維持するために戦ってほしい。",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "Hey there, gringo. I see you're new around here. You look tough enough."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "Thanks, I can handle myself."
+            },
+            {
+                "speaker": "NPC",
+                "text": "Good, 'cause we need more people like you to keep this place from falling apart."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "What's the story here?"
+            },
+            {
+                "speaker": "NPC",
+                "text": "Gang trouble. They think they can run this place. We gotta show 'em otherwise, sí?"
+            }
+        ]
+    },
+    {
+        "npc name": "Malcolm",
+        "ethnicity": "アフリカ系アメリカ人",
+        "role": "ストリートサムライ",
+        "quest": "街のギャングから地元の子供たちを守るために、彼らと戦い、リーダーを倒す。",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "よう、新人さん。この辺りは危険だぞ。ギャングどもが子供たちを脅してんだ。手を貸してくれねえか？"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "もちろんだ、何をすればいい？"
+            },
+            {
+                "speaker": "NPC",
+                "text": "リーダーの居場所を教えてやるよ。そいつも子供たちを解放しなきゃいけねえんだ。行こうか。"
+            }
+        ]
+    },
+    {
+        "npc name": "Ryo",
+        "ethnicity": "アジア人",
+        "role": "ストリートサムライ",
+        "quest": "プロトタイプの新しいサイバーデバイスを取り戻すために、街中で活動する反体制派から奪い返す。",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "ようこそ、外国人よ。俺たちは同じ目的を持つようだな。手を貸してやる。"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "助かるよ、サムライさん。一緒に行きましょう。"
+            }
+        ]
+    }
+]

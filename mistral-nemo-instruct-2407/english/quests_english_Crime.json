@@ -1,0 +1,126 @@
+[
+    {
+        "npc name": "Malik Washington",
+        "ethnicity": "black person",
+        "role": "Informant",
+        "quest": "The Snitch's Tip-Off",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "Ayo, you look like a cat with nine lives. I got somethin' for ya."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "What's that?"
+            },
+            {
+                "speaker": "NPC",
+                "text": "I know where the Johnson brothers are hidin'. They've been movin' product left and right."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "And what do you want in return, Malik?"
+            },
+            {
+                "speaker": "NPC",
+                "text": "Just make sure they don't come after me when it's all said and done. Deal?"
+            }
+        ]
+    },
+    {
+        "npc name": "Victor Kaine",
+        "ethnicity": "caucasian",
+        "role": "Fixer",
+        "quest": "Victor has information about an upcoming high-stakes heist but won't reveal it until the protagonist retrieves a stolen artifact from a rival gang.",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "Hey there, listen up. I've got info you need, but it ain't free. Some punk crew swiped something of mine."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "What's that got to do with me?"
+            },
+            {
+                "speaker": "NPC",
+                "text": "I want it back. You fetch that and I'll talk. Understand, pal?"
+            }
+        ]
+    },
+    {
+        "npc name": "Juan Rodriguez",
+        "ethnicity": "hispanic",
+        "role": "Informant",
+        "quest": "Juan has information about a recent heist involving a valuable artifact but needs protection from the crime boss in exchange for his knowledge.",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "Hola, amigo. I've heard you're the one to talk to when things need... solving."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "What do you have in mind, Juan?"
+            },
+            {
+                "speaker": "NPC",
+                "text": "There's this thing, see? An artifact. Stolen recently. I know who took it, but the boss is... watching me."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "What's your cut, Juan?"
+            },
+            {
+                "speaker": "NPC",
+                "text": "I just want to be safe, comprende? You keep the boss off my back, I'll give you what you need."
+            }
+        ]
+    },
+    {
+        "npc name": "Derrick Johnson",
+        "ethnicity": "african american",
+        "role": "Informant",
+        "quest": "Derrick has information on a high-profile crime lord's operation, but he won't talk to the cops. He needs the protagonist's help to set up a meet and get paid.",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "Hey there, I hear you're the one making waves in this city."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "I try my best. What's your name?"
+            },
+            {
+                "speaker": "NPC",
+                "text": "Derrick Johnson. Listen, I've got info that could bring down a big fish, but the cops ain't gonna do nothin' with it."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "What's in it for you?"
+            },
+            {
+                "speaker": "NPC",
+                "text": "I need you to set up a meet. I want protection and a cut of the action. You make that happen, and I'll sing like a canary."
+            }
+        ]
+    },
+    {
+        "npc name": "Li Wei",
+        "ethnicity": "asian",
+        "role": "Informant",
+        "quest": "The Silent Whistleblower",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "Ah, you're new here. I hear things, see things. For the right price, maybe I can help you too."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "What's your price?"
+            },
+            {
+                "speaker": "NPC",
+                "text": "I want immunity from that last job. I know who set it up, but I need protection first."
+            }
+        ]
+    }
+]

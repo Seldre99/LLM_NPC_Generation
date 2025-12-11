@@ -1,0 +1,94 @@
+[
+    {
+        "npc name": "ジェイムス・",
+        "ethnicity": "黒人",
+        "role": "腐敗した警官",
+        "quest": "主人公の知り合いが逮捕された際、裏で取引をして彼を助ける手伝いをする。",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "よお、新顔だな。やつに会いたいか？"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "彼は逮捕されたんだろ？助け出す方法を知らないか？"
+            }
+        ]
+    },
+    {
+        "npc name": "ジャック・マカリー",
+        "ethnicity": "白人",
+        "role": "フィクサー",
+        "quest": "プロタゴニストが街の麻薬取引について調査しているときに、フィクサーとして協力する。",
+        "dialogue": [
+            {
+                "speaker": "Jack McCary",
+                "text": "hey there, I heard you're lookin' into the drug trade around here. I might know a thing or two that could help ya."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "I'm all ears, Jack. What do you know?"
+            }
+        ]
+    },
+    {
+        "npc name": "Juan Rodriguez",
+        "ethnicity": "ヒスパニック系",
+        "role": "フィクサー",
+        "quest": "プロタゴニストが街から追放される前に、最後の仕事を手伝うよう頼む。",
+        "dialogue": [
+            {
+                "speaker": "Juan Rodriguez",
+                "text": "Hey there, I've got a job for you. It's risky, but the pay is good."
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "What do you need me to do?"
+            }
+        ]
+    },
+    {
+        "npc name": "ジェイク・ロバーツ",
+        "ethnicity": "アフリカ系アメリカ人",
+        "role": "フィクサー",
+        "quest": "主人公が街で起きた盗難事件の被害者から情報を得ようとしていたとき、ジェイクはその唯一の接触手段となっていた。彼は主に裏世界で活動しており、事件の背後にある組織について何か知っているかもしれない。",
+        "dialogue": [
+            {
+                "speaker": "ジェイク",
+                "text": "よお、新顔だな。何か探し物があるんなら、こっちの方が早いぜ。"
+            },
+            {
+                "speaker": "プロタゴニスト",
+                "text": "盗まれた荷物の手掛かりを探しているんだ。知っている情報はないか？"
+            },
+            {
+                "speaker": "ジェイク",
+                "text": "ま、確かに何か聞いたことがあるよな。だが、その代わりにコトを進めるためには、俺にとっちゃあちょっとしたリソースが必要になるって話だ。"
+            }
+        ]
+    },
+    {
+        "npc name": "チャン・リー",
+        "ethnicity": "アジア人",
+        "role": "ハッカー",
+        "quest": "盗まれたデータの回収",
+        "dialogue": [
+            {
+                "speaker": "NPC",
+                "text": "私はチャン・リー、データを取り戻すために必要な情報を持っている。しかし、金が必要だね。"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "どのくらいなら教えてくれるんだ？"
+            },
+            {
+                "speaker": "NPC",
+                "text": "千ドルで手に入る情報だよ。安いとは思わないだろうね？"
+            },
+            {
+                "speaker": "Protagonist",
+                "text": "いいだろう、それだけ払えばいいんだな。"
+            }
+        ]
+    }
+]
