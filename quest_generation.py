@@ -28,20 +28,19 @@ def build_user_text(template: str, role: str) -> str:
         .replace("[ROLE_LIST]", str(role))
     )
 
-def take_role(genre: int) -> dict:
-    if genre == 1:
-        json_path = "data/role_fantasy.json"
-    elif genre == 2:
-        json_path = "data/role_open_world.json"
-    elif genre == 3:
-        json_path = "data/role_cyberpunk.json"
-    elif genre == 4:
-        json_path = "data/role_crime.json"
-
-    with open(json_path, "r", encoding="utf-8") as f:
+def take_role(genre_index: int) -> dict:
+    mapping = {
+        1: "data/role_fantasy.json",
+        2: "data/role_open_world.json",
+        3: "data/role_cyberpunk.json",
+        4: "data/role_crime.json"
+    }
+    if genre_index not in mapping:
+        raise ValueError(f"No role mapping for genre index: {genre_index}")
+    with open(mapping[genre_index], "r", encoding="utf-8") as f:
         return json.load(f)
 
-def call_llm(system_text: str, user_text: str, used_model: str) -> str:
+def call_llm(system_text: str, user_text: str, used_model: str, temp: float) -> str:
     """Send the prompt to LM Studio. (VERSIONE BASE)
     with lms.Client() as client:
         model = client.llm.model(used_model)
@@ -58,8 +57,9 @@ def call_llm(system_text: str, user_text: str, used_model: str) -> str:
         model = client.llm.model(used_model)
         chat = lms.Chat(system_text)
         chat.add_user_message(user_text)
-        print(user_text)
-        response = str(model.respond(chat))
+        response = str(model.respond(chat, config={
+            "temperature": temp
+        }))
 
     # Remove <think> blocks
     response = re.sub(r"<think>.*?</think>", "", response, flags=re.DOTALL).strip()
@@ -86,145 +86,254 @@ def validate_output(json_obj, expected_race, role_list):
 
     return True, None
 
-def create_quest(sys_txt: str, user_txt: str, used_model: str):
-    """Put together and create the quest."""
+def update_role_matrix_csv(csv_path: Path, roles_en: list, npc_details: list):
+    """
+    Maintain CSV with structure:
+    ethnicity, role1, role2, ..., roleN
+    Each cell is a cumulative count.
+    roles_en: list of role names in English (column order).
+    npc_details: list of {"name","ethnicity","role"} with ethnicity+role in English.
+    """
+
+    # Ensure CSV exists with header
+    if not csv_path.exists():
+        csv_path.parent.mkdir(parents=True, exist_ok=True)
+        with open(csv_path, "w", newline="", encoding="utf-8") as f:
+            fieldnames = ["ethnicity"] + roles_en
+            writer = csv.DictWriter(f, fieldnames=fieldnames)
+            writer.writeheader()
+
+    # Load existing table into dict
+    csv_data = {}
+    with open(csv_path, "r", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            eth = row["ethnicity"]
+            csv_data[eth] = {role: int(row.get(role, 0)) for role in roles_en}
+
+    # Update counts
+    for entry in npc_details:
+        eth = entry["ethnicity"]
+        role = entry["role"]
+        if eth not in csv_data:
+            csv_data[eth] = {r: 0 for r in roles_en}
+        if role not in csv_data[eth]:
+            # If the role is unknown (maybe mismatch), add column with 0 for existing rows
+            csv_data[eth][role] = 0
+            # Ensure all other rows have this role key present (keep CSV consistent)
+            for other_eth in csv_data:
+                if role not in csv_data[other_eth]:
+                    csv_data[other_eth][role] = 0
+            if role not in roles_en:
+                roles_en.append(role)
+        csv_data[eth][role] += 1
+
+    # Write back CSV with columns ordered as ["ethnicity"] + roles_en
+    with open(csv_path, "w", newline="", encoding="utf-8") as f:
+        fieldnames = ["ethnicity"] + roles_en
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer.writeheader()
+        for eth, counts in csv_data.items():
+            row = {"ethnicity": eth}
+            # ensure all role columns exist
+            for role in roles_en:
+                row[role] = counts.get(role, 0)
+            writer.writerow(row)
+
+
+# -----------------------
+# Update error matrix CSV per language
+# -----------------------
+def update_error_matrix_csv(csv_path: Path, error_entries: list):
+    """
+    Maintain per-language CSV:
+    columns: genre, ethnicity, not a json object, missing field, ethnicity mismatch, role not allowed
+    error_entries: list of {"genre":genre_en, "ethnicity":eth_en, "error":error_type}
+    """
+    error_types = ["not a json object", "missing field", "ethnicity mismatch", "role not allowed"]
+
+    # Ensure CSV exists
+    if not csv_path.exists():
+        csv_path.parent.mkdir(parents=True, exist_ok=True)
+        with open(csv_path, "w", newline="", encoding="utf-8") as f:
+            fieldnames = ["genre", "ethnicity"] + error_types
+            writer = csv.DictWriter(f, fieldnames=fieldnames)
+            writer.writeheader()
+
+    # Load existing matrix
+    matrix = {}
+    with open(csv_path, "r", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            key = (row["genre"], row["ethnicity"])
+            matrix[key] = {err: int(row.get(err, 0)) for err in error_types}
+
+    # Normalize and update entries
+    for e in error_entries:
+        genre = e.get("genre", "")
+        eth = e.get("ethnicity", "")
+        raw_err = str(e.get("error", "")).strip().lower()
+
+        if raw_err.startswith("missing field"):
+            err_key = "missing field"
+        elif raw_err in error_types:
+            err_key = raw_err
+        elif raw_err in ["invalid json", "not a json object"]:
+            err_key = "not a json object"
+        else:
+            err_key = "not a json object"
+
+        key = (genre, eth)
+        if key not in matrix:
+            matrix[key] = {err: 0 for err in error_types}
+        matrix[key][err_key] += 1
+
+    # Write back CSV
+    with open(csv_path, "w", newline="", encoding="utf-8") as f:
+        fieldnames = ["genre", "ethnicity"] + error_types
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer.writeheader()
+        for (genre, eth), counts in matrix.items():
+            row = {"genre": genre, "ethnicity": eth}
+            row.update(counts)
+            writer.writerow(row)
+
+
+
+def create_quest(sys_txt: str, user_txt: str, used_model: str, temp: float):
     lms.get_default_client(SERVER_API_HOST)
 
-    # JSON con generi e razze tradotti
-    json_path = "data/race_genre_language.json"
-
-    with open(json_path, "r", encoding="utf-8") as f:
+    with open("data/race_genre_language.json", "r", encoding="utf-8") as f:
         lang_data = json.load(f)
 
-    # Lista lingue da processare
     languages = list(lang_data.keys())
-
-    english_races = lang_data["english"]["npc_races"]
+    english_ethnicities = lang_data["english"]["npc_races"]
     english_genres = lang_data["english"]["genres"]
 
-    error_count = 0
-
     for lang in languages:
-        genre_type = 0
-        #template_path = f"prompt/quest_generation_{lang}.txt"
-        sys_template_path = f"prompt/{sys_txt}_{lang}.txt"
-        usr_template_path = f"prompt/{user_txt}_{lang}.txt"
+        # load templates
+        sys_template = load_prompt_template(f"prompt/{sys_txt}_{lang}.txt")
+        usr_template = load_prompt_template(f"prompt/{user_txt}_{lang}.txt")
+
         print(f"\n=== Loading template for language: {lang} ===")
 
-        sys_template = load_prompt_template(sys_template_path)
-        usr_template = load_prompt_template(usr_template_path)
-
-        # Dati localizzati da JSON
         genres = lang_data[lang]["genres"]
-        npc_races = lang_data[lang]["npc_races"]
+        npc_ethnicities = lang_data[lang]["npc_races"]
 
-        errors_for_lang = []
+        # collect errors for this language-run (then update per-language csv)
+        errors_to_update = []
+
+        genre_type = 0
 
         for genre in genres:
-
             genre_type += 1
+
+            # roles: local and english
+            roles_data = take_role(genre_type)
+            roles_local = roles_data[lang]["role"]
+            roles_english = roles_data["english"]["role"]
+
+            # aggregated json path for this genre/lang/model
+            aggregated_dir = Path(f"output/npc_quest/{used_model.replace('/', '_')}/temperature_{temp}/{lang}")
+            aggregated_dir.mkdir(parents=True, exist_ok=True)
+            aggregated_filename = aggregated_dir / f"quests_{lang}_{english_genres[genre_type - 1]}.json"
+
+            # load existing aggregated list or start empty
+            if aggregated_filename.exists():
+                with open(aggregated_filename, "r", encoding="utf-8") as f:
+                    try:
+                        all_quests_for_genre = json.load(f)
+                        if not isinstance(all_quests_for_genre, list):
+                            all_quests_for_genre = []
+                    except:
+                        all_quests_for_genre = []
+            else:
+                all_quests_for_genre = []
+
             npc_details = []
-            all_quests_for_genre = []
 
-            for npc_race in npc_races:
-                print(f"\n=== Generating {lang} quest for: {genre} + {npc_race} ===\n")
+            for npc_ethnicity in npc_ethnicities:
+                print(f"\n=== Generating {lang} quest for: {genre} + {npc_ethnicity} ===\n")
 
-                roles_data = take_role(genre_type)
-                roles = roles_data[lang]["role"]
-                print(roles)
+                system_text = build_system_text(sys_template, genre, npc_ethnicity)
+                user_text = build_user_text(usr_template, roles_local)
+                llm_response = call_llm(system_text, user_text, used_model, temp)
 
-                system_text = build_system_text(sys_template, genre, npc_race)
-                user_text = build_user_text(usr_template, roles)
-                llm_response = call_llm(system_text, user_text, used_model)
+                ethnicity_index = npc_ethnicities.index(npc_ethnicity)
+                ethnic_en = english_ethnicities[ethnicity_index]
 
-                race_index = npc_races.index(npc_race)
-                race_en = english_races[race_index]
-
-
-                # 1. Validate JSON
+                # parse JSON
                 try:
                     json_obj = json.loads(llm_response)
-                except:
-                    print("Invalid JSON — skipped")
-
-                    errors_for_lang.append({
+                except Exception:
+                    errors_to_update.append({
                         "genre": english_genres[genre_type - 1],
-                        "ethnicity": english_races[race_index],
-                        "error": "invalid json"
+                        "ethnicity": ethnic_en,
+                        "error": "not a json object"
                     })
                     continue
 
-                # 2. Structured validation
-                valid, reason = validate_output(json_obj, npc_race, roles)
+                # validate structure and content
+                valid, reason = validate_output(json_obj, npc_ethnicity, roles_local)
                 if not valid:
-                    print(f"✖ Invalid output ({reason}) — skipped")
-                    errors_for_lang.append({
+                    reason_norm = reason
+                    if isinstance(reason, str) and reason.startswith("missing field"):
+                        reason_norm = "missing field"
+                    errors_to_update.append({
                         "genre": english_genres[genre_type - 1],
-                        "ethnicity": english_races[race_index],
-                        "error": reason
+                        "ethnicity": ethnic_en,
+                        "error": reason_norm
                     })
                     continue
 
-                print(f"LLM response: {llm_response}")
+                # map role to english
+                try:
+                    role_index = [r.lower() for r in roles_local].index(json_obj["role"].lower())
+                    role_en = roles_english[role_index]
+                except ValueError:
+                    # role not found in mapping (shouldn't happen if validate passed), treat as role not allowed
+                    errors_to_update.append({
+                        "genre": english_genres[genre_type - 1],
+                        "ethnicity": ethnic_en,
+                        "error": "role not allowed"
+                    })
+                    continue
 
-                # Output folder: /output/<lang>/
-                #out_dir = Path(f"output/{used_model.replace('/', '_')}/{lang}")
-                #out_dir.mkdir(parents=True, exist_ok=True)
+                print(llm_response)
 
-                #filename = out_dir / f"quest_{lang}_{genre}_{npc_race}.json"
-                #filename.write_text(llm_response, encoding="utf-8")
-
-                role_index = [r.lower() for r in roles].index(json_obj["role"].lower())
-                role_en = roles_data["english"]["role"][role_index]
-
-                # 4. Prepare row for CSV
+                # append details for CSV matrix (ethnicity + role in English)
                 npc_details.append({
-                    "name": json_obj["npc name"],
-                    "ethnicity": race_en,
+                    "name": json_obj.get("npc name", ""),
+                    "ethnicity": ethnic_en,
                     "role": role_en
                 })
 
+                # append full json to aggregated list
                 all_quests_for_genre.append(json_obj)
 
-            # 6. CREATE AGGREGATED JSON FOR GENRE (NEW)
-            aggregated_json_dir = Path(f"output/npc_quest/{used_model.replace('/', '_')}/{lang}")
-            aggregated_json_dir.mkdir(parents=True, exist_ok=True)
-
-            aggregated_filename = aggregated_json_dir / f"quests_{lang}_{english_genres[genre_type - 1]}.json"
-
+            # save aggregated json (append mode)
+            aggregated_filename.parent.mkdir(parents=True, exist_ok=True)
             with open(aggregated_filename, "w", encoding="utf-8") as f:
                 json.dump(all_quests_for_genre, f, indent=4, ensure_ascii=False)
 
-            # 5. CREATE CSV FOR GENRE
-            csv_dir = Path(f"csv/npc_quest/{used_model.replace('/', '_')}/{lang}")
+            # update role-matrix CSV for this genre/lang/model
+            csv_dir = Path(f"csv/npc_quest/{used_model.replace('/', '_')}/temperature_{temp}/{lang}")
             csv_dir.mkdir(parents=True, exist_ok=True)
-
             csv_name = csv_dir / f"{english_genres[genre_type - 1]}_{used_model.replace('/', '_')}_{lang}.csv"
+            update_role_matrix_csv(csv_name, roles_english.copy(), npc_details)
 
-            with open(csv_name, "w", newline="", encoding="utf-8") as f:
-                writer = csv.DictWriter(f, fieldnames=["name", "ethnicity", "role"])
-                writer.writeheader()
-                writer.writerows(npc_details)
-
-            print(f"✓ CSV created: {csv_name}")
-
-        # Save error CSV
-        if errors_for_lang:
-            error_dir = Path(f"errors/npc_quest/{used_model.replace('/', '_')}/{lang}")
-            error_dir.mkdir(parents=True, exist_ok=True)
-
-            error_csv = error_dir / f"errors_{lang}.csv"
-
-            with open(error_csv, "w", newline="", encoding="utf-8") as f:
-                writer = csv.DictWriter(f, fieldnames=["genre", "ethnicity", "error"])
-                writer.writeheader()
-                writer.writerows(errors_for_lang)
-
-            print(f"⚠ Error CSV created: {error_csv}")
-
-    print(f"\n=== Completed with {error_count} invalid responses ===")
+        # after processing all genres for this language, update per-language error CSV
+        error_csv_path = Path(f"errors/{used_model.replace('/', '_')}/temperature_{temp}/{lang}/error_{lang}.csv")
+        error_csv_path.parent.mkdir(parents=True, exist_ok=True)
+        if errors_to_update:
+            update_error_matrix_csv(error_csv_path, errors_to_update)
 
 
+# -----------------------
+# Runner: N iterations
+# -----------------------
 if __name__ == "__main__":
-    create_quest("npc_system", "npc_user", "google/gemma-3-1b")
-    #create_quest("npc_quest", "qwen/qwen3-8b")
+    N = 1000  # number of total runs
+    for i in range(N):
+        print(f"\n======== ITERATION {i+1}/{N} ========\n")
+        create_quest("npc_system", "npc_user", "google/gemma-3-1b", 0.7)
