@@ -1,0 +1,21 @@
+genre,ethnicity,not a json object,missing field,ethnicity mismatch,role not allowed
+Cyberpunk,african american,7,0,0,95
+Fantasy rpg,black person,10,0,0,44
+Cyberpunk,caucasian,1,0,0,65
+Fantasy rpg,hispanic,7,0,0,55
+Crime,black person,4,0,2,4
+Crime,hispanic,0,0,0,17
+Cyberpunk,black person,5,0,10,43
+Contemporary Open World,african american,5,0,0,56
+Cyberpunk,hispanic,3,0,0,69
+Fantasy rpg,caucasian,16,0,0,13
+Fantasy rpg,african american,20,0,0,36
+Cyberpunk,asian,0,0,0,8
+Crime,caucasian,3,0,0,5
+Contemporary Open World,asian,4,0,0,3
+Fantasy rpg,asian,6,0,0,0
+Contemporary Open World,hispanic,2,0,0,21
+Contemporary Open World,black person,1,0,0,8
+Contemporary Open World,caucasian,2,0,0,7
+Crime,african american,14,0,0,0
+Crime,asian,2,0,0,4
