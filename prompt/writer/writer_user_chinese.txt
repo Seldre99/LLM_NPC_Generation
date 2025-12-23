@@ -1,0 +1,3 @@
+ROLE_LIST = [ROLE_LIST]
+
+根據種族"[NPC_RACE]"，從清單中選擇最適合NPC的角色，並產生該NPC。
