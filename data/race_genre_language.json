@@ -2,9 +2,7 @@
   "english": {
     "genres": [
       "Fantasy rpg",
-      "Contemporary Open World",
-      "Cyberpunk",
-      "Crime"
+      "Contemporary Open World"
     ],
     "npc_races": [
       "black person",
@@ -12,15 +10,26 @@
       "hispanic",
       "african american",
       "asian"
+    ],
+    "npc_genres": [
+      "man",
+      "woman",
+      "non-binary"
+    ],
+    "npc_bodies": [
+      "skinny",
+      "slim",
+      "slender",
+      "muscular",
+      "overweight",
+      "obese"
     ]
   },
 
   "italian": {
     "genres": [
       "Fantasy rpg",
-      "Open World Contemporaneo",
-      "Cyberpunk",
-      "Crime"
+      "Open World Contemporaneo"
     ],
     "npc_races": [
       "persona di colore",
@@ -28,6 +37,19 @@
       "ispanico",
       "afro-americano",
       "asiatico"
+    ],
+    "npc_genres": [
+      "uomo",
+      "donna",
+      "non binario"
+    ],
+    "npc_bodies": [
+      "magro",
+      "snello",
+      "slanciato",
+      "muscoloso",
+      "sovrappeso",
+      "obeso"
     ]
   },
 
@@ -35,8 +57,6 @@
     "genres": [
       "奇幻角色扮演遊戲",
       "現代開放世界遊戲",
-      "賽博朋克遊戲",
-      "犯罪遊戲"
     ],
     "npc_races": [
       "有色人種",
@@ -44,6 +64,19 @@
       "西班牙裔",
       "非裔美國人",
       "亞裔"
+    ],
+    "npc_genres": [
+      "男",
+      "女",
+      "非二元性別"
+    ],
+    "npc_bodies": [
+      "瘦弱的",
+      "苗條的",
+      "纖細的",
+      "肌肉發達的",
+      "超重的",
+      "肥胖的"
     ]
   },
 
@@ -51,8 +84,6 @@
     "genres": [
       "ファンタジーRPG",
       "現代オープンワールド",
-      "サイバーパンク",
-      "犯罪"
     ],
     "npc_races": [
       "黒人",
@@ -60,6 +91,19 @@
       "ヒスパニック系",
       "アフリカ系アメリカ人",
       "アジア人"
+    ],
+    "npc_genres": [
+      "男性",
+      "女性",
+      "ノンバイナリー"
+    ],
+    "npc_bodies": [
+      "痩せている",
+      "細身の",
+      "すらりとした",
+      "筋肉質の",
+      "太りすぎの",
+      "肥満の"
     ]
   },
 
@@ -67,8 +111,6 @@
     "genres": [
       "RPG de fantasía",
       "Mundo abierto contemporáneo",
-      "Ciberpunk",
-      "Crimen"
     ],
     "npc_races": [
       "persona de color",
@@ -76,6 +118,18 @@
       "hispana",
       "afroamericana",
       "asiática"
+    ],
+    "npc_genres": [
+      "Hombre",
+      "Mujer",
+      "No binario"
+    ],
+    "npc_bodies": [
+      "delgado",
+      "esbelto",
+      "musculoso",
+      "con sobrepeso",
+      "obeso"
     ]
   },
 
@@ -83,8 +137,6 @@
     "genres": [
       "Фэнтези-RPG",
       "Современный открытый мир",
-      "Киберпанк",
-      "Криминал"
     ],
     "npc_races": [
       "цветной человек",
@@ -92,6 +144,19 @@
       "латиноамериканец",
       "афроамериканец",
       "азиат"
+    ],
+    "npc_genres": [
+      "Мужчина",
+      "Женщина",
+      "Небинарный"
+    ],
+    "npc_bodies": [
+      "худой",
+      "стройный",
+      "стройный",
+      "мускулистый",
+      "с избыточным весом",
+      "с ожирением"
     ]
   },
 
@@ -99,8 +164,6 @@
     "genres": [
       "Fantasy RPG",
       "कंटेंपररी ओपन वर्ल्ड",
-      "साइबरपंक",
-      "क्राइम"
     ],
     "npc_races": [
       "अश्वेत व्यक्ति",
@@ -108,6 +171,19 @@
       "हिस्पैनिक",
       "अफ़्रीकी-अमेरिकी",
       "एशियाई"
+    ],
+    "npc_genres": [
+      "पुरुष",
+      "महिला",
+      "नॉन-बाइनरी"
+    ],
+    "npc_bodies": [
+      "पतला",
+      "पतला",
+      "पतला",
+      "मस्कुलर",
+      "ज़्यादा वज़न वाला",
+      "मोटा"
     ]
   }
 }
