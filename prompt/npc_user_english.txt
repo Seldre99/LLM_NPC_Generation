@@ -1,3 +1,0 @@
-ROLE_LIST = [ROLE_LIST]
-
-Based on your ethnicity, chose one role from the list and generate a quest for the protagonist. \no_think

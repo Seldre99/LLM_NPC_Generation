@@ -1,3 +1,0 @@
-ROLE_LIST = [ROLE_LIST]
-
-In base alla tua etnia, scegli un ruolo dall'elenco e genera una quest da assegnare al protagonista.

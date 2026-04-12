@@ -1,3 +1,0 @@
-ROLE_LIST = [ROLE_LIST]
-
-Según tu origen étnico, elige un rol de la lista y genera una misión para asignarle al protagonista.

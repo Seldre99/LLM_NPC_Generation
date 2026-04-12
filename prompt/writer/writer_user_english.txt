@@ -1,3 +1,0 @@
-ROLE_LIST = [ROLE_LIST]
-
-Based on the ethnicity "[NPC_RACE]", choose the role that best fits the NPC from the list and generate the NPC. \no_think

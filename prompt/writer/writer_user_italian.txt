@@ -1,3 +1,0 @@
-ROLE_LIST = [ROLE_LIST]
-
-In base all'etnia "[NPC_RACE]", scegli il ruolo più adatto all'NPC dall'elenco e genera l'NPC. \no_think

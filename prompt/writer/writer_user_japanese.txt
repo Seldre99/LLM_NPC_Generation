@@ -1,3 +1,0 @@
-ROLE_LIST = [ROLE_LIST]
-
-種族"[NPC_RACE]"に基づいて、リストからNPCに最も適した役割を選択し、NPCを作成してください。\no_think

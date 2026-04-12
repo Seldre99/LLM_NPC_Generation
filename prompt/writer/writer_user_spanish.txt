@@ -1,3 +1,0 @@
-ROLE_LIST = [ROLE_LIST]
-
-Basándote en la raza "[NPC_RACE]", elige el rol que mejor se adapte al PNJ de la lista y generálo. \no_think
