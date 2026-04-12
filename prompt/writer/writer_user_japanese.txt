@@ -1,0 +1,9 @@
+ROLE_LIST = [ROLE_LIST]
+
+以下のNPC特性に基づきます。
+
+性別: [NPC_GENRE]
+民族: [NPC_ETNICITY]
+体型: [NPC_BODY]
+
+ビデオゲーム内でNPCが持つべき役割をROLE_LISTから選択してください。\no_think

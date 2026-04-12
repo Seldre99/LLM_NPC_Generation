@@ -1,0 +1,3 @@
+ROLE_LIST = [ROLE_LIST]
+
+あなたの特性に基づいて、ビデオゲーム内であなたが担う役割をROLE_LISTから選択してください。 \no_think

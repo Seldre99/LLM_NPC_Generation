@@ -1,0 +1,9 @@
+ROLE_LIST = [ROLE_LIST]
+
+नीचे दिए गए NPC कैरेक्टरिस्टिक्स के आधार पर:
+
+जेंडर: [NPC_GENRE]
+एथनिसिटी: [NPC_ETNICITY]
+बॉडी टाइप: [NPC_BODY]
+
+ROLE_LIST से वह रोल चुनें जो NPC को वीडियो गेम में मिलना चाहिए। \no_think

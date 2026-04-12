@@ -1,0 +1,3 @@
+ROLE_LIST = [ROLE_LIST]
+
+अपनी खासियतों के आधार पर, वीडियो गेम में ROLE_LIST से अपना रोल चुनें। \no_think

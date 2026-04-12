@@ -1,0 +1,11 @@
+ROLE_LIST = [ROLE_LIST]
+
+基於以下NPC特徵：
+
+性別：[NPC_GENRE]
+
+種族：[NPC_ETNICITY]
+
+體型：[NPC_BODY]
+
+請從ROLE_LIST中選擇NPC在遊戲中應扮演的角色。 \no_think

@@ -1,0 +1,9 @@
+ROLE_LIST = [ROLE_LIST]
+
+Basándonos en las siguientes características del PNJ:
+
+Género: [NPC_GENRE]
+Etnia: [NPC_ETNICITY]
+Tipo de cuerpo: [NPC_BODY]
+
+Elige el rol de la lista ROLE_LIST que el PNJ debería tener en el videojuego. \no_think

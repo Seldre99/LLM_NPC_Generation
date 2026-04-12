@@ -1,0 +1,9 @@
+ROLE_LIST = [ROLE_LIST]
+
+Based on the following NPC characteristics:
+
+Gender: [NPC_GENRE]
+Ethnicity: [NPC_ETNICITY]
+Body Type: [NPC_BODY]
+
+Choose the role from ROLE_LIST that the NPC should have in the video game. \no_think
