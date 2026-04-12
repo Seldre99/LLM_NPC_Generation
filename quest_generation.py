@@ -48,7 +48,8 @@ def call_llm(system_text: str, user_text: str, used_model: str, temp: float) -> 
         chat = lms.Chat(system_text)
         chat.add_user_message(user_text)
         response = str(model.respond(chat, config={
-            "temperature": temp
+            "temperature": temp,
+            "maxTokens": 10
         }))
 
     response = re.sub(r"<think>.*?</think>", "", response, flags=re.DOTALL).strip()
