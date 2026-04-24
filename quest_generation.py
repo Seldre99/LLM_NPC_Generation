@@ -43,14 +43,17 @@ def take_role(genre_index: int) -> dict:
         return json.load(f)
 
 def call_llm(system_text: str, user_text: str, used_model: str, temp: float) -> str:
-    with lms.Client() as client:
-        model = client.llm.model(used_model)
-        chat = lms.Chat(system_text)
-        chat.add_user_message(user_text)
-        response = str(model.respond(chat, config={
-            "temperature": temp,
-            "maxTokens": 10
-        }))
+    try:
+        with lms.Client() as client:
+            model = client.llm.model(used_model)
+            chat = lms.Chat(system_text)
+            chat.add_user_message(user_text)
+            response = str(model.respond(chat, config={
+                "temperature": temp,
+                "maxTokens": 200,
+            }))
+    except lms.LMStudioServerError:
+        return ""
 
     response = re.sub(r"<think>.*?</think>", "", response, flags=re.DOTALL).strip()
     response = re.sub(r"```json\s*", "", response, flags=re.IGNORECASE)
@@ -58,11 +61,31 @@ def call_llm(system_text: str, user_text: str, used_model: str, temp: float) -> 
     return response
 
 
-def validate_output(role: str, role_list: list) -> tuple:
-    """Controlla se il ruolo restituito è presente nella lista dei ruoli consentiti."""
-    if role.strip().lower() not in [r.lower() for r in role_list]:
-        return False, "role not allowed"
-    return True, None
+def validate_output(raw_response: str, role_list: list) -> tuple:
+    """Controlla se l'output è un JSON, il ruolo restituito è presente nella lista dei ruoli consentiti e c'è il campo personality."""
+    try:
+        data = json.loads(raw_response)
+    except json.JSONDecodeError:
+        return False, "invalid json", None
+
+    if not isinstance(data, dict):
+        return False, "invalid json", None
+
+    if "role" not in data:
+        return False, "invalid json", None
+
+    if "personality" not in data:
+        return False, "missing personality", None
+
+    role_value = data["role"]
+
+    if not isinstance(role_value, str):
+        return False, "invalid json", None
+
+    if role_value.strip().lower() not in [r.lower() for r in role_list]:
+        return False, "role not allowed", None
+
+    return True, None, role_value.strip().lower()
 
 
 def update_role_matrix_csv(csv_path: Path, roles_en: list, ethnicity: str, npc_role: str):
@@ -116,7 +139,7 @@ def update_error_matrix_csv(csv_path: Path, error_entries: list):
     columns: genre, ethnicity, npc_genre, npc_body, role not allowed
     error_entries: list of {"genre", "ethnicity", "npc_genre", "npc_body", "error"}
     """
-    error_types = ["role not allowed"]
+    error_types = ["role not allowed", "invalid json", "missing personality"]
 
     if not csv_path.exists():
         csv_path.parent.mkdir(parents=True, exist_ok=True)
@@ -133,15 +156,18 @@ def update_error_matrix_csv(csv_path: Path, error_entries: list):
             matrix[key] = {err: int(row.get(err, 0)) for err in error_types}
 
     for e in error_entries:
-        genre    = e.get("genre", "")
-        eth      = e.get("ethnicity", "")
+        genre = e.get("genre", "")
+        eth = e.get("ethnicity", "")
         npc_genre = e.get("npc_genre", "")
-        npc_body  = e.get("npc_body", "")
+        npc_body = e.get("npc_body", "")
+        error = e.get("error", "")
 
         key = (genre, eth, npc_genre, npc_body)
         if key not in matrix:
             matrix[key] = {err: 0 for err in error_types}
-        matrix[key]["role not allowed"] += 1
+
+        if error in error_types:
+            matrix[key][error] += 1
 
     with open(csv_path, "w", newline="", encoding="utf-8") as f:
         fieldnames = ["genre", "ethnicity", "npc_genre", "npc_body"] + error_types
@@ -153,7 +179,40 @@ def update_error_matrix_csv(csv_path: Path, error_entries: list):
             writer.writerow(row)
 
 
-def create_npc(sys_txt: str, user_txt: str, used_model: str, temp: float):
+def save_npc_output(output_dir: Path, used_model: str,temp: float, lang: str, genre_en: str, npc_genre_en: str, npc_body_en: str, ethnic_en: str, raw_response: str):
+    """
+    Salva il JSON dell'LLM in un file dedicato per ogni combinazione NPC. Il file accumula tutti gli output generati per quella combinazione.
+    """
+    save_dir = Path(
+        f"output/{used_model.replace('/', '_')}/temperature_{temp}"
+        f"/{lang}/{genre_en}/{npc_genre_en}/{npc_body_en}"
+    )
+    save_dir.mkdir(parents=True, exist_ok=True)
+
+    file_name = save_dir / f"{genre_en}_{npc_genre_en}_{npc_body_en}_{ethnic_en}_{lang}.json"
+
+    # Carica lista esistente o inizia da zero
+    existing = []
+    if file_name.exists():
+        try:
+            with open(file_name, "r", encoding="utf-8") as f:
+                existing = json.load(f)
+        except (json.JSONDecodeError, ValueError):
+            existing = []
+
+    # Aggiunge il nuovo output
+    try:
+        parsed = json.loads(raw_response)
+    except json.JSONDecodeError:
+        parsed = {"raw": raw_response}  # salva comunque in caso di JSON malformato
+
+    existing.append(parsed)
+
+    with open(file_name, "w", encoding="utf-8") as f:
+        json.dump(existing, f, ensure_ascii=False, indent=2)
+
+
+def create_npc(sys_txt: str, user_txt: str, used_model: str, temp: float, iteration: int):
 
     with open("data/race_genre_language.json", "r", encoding="utf-8") as f:
         lang_data = json.load(f)
@@ -175,7 +234,6 @@ def create_npc(sys_txt: str, user_txt: str, used_model: str, temp: float):
         npc_genres      = lang_data[lang]["npc_genres"]
         npc_bodies      = lang_data[lang]["npc_bodies"]
 
-        errors_to_update = []
         genre_type = 0
 
         for genre in genres:
@@ -184,6 +242,8 @@ def create_npc(sys_txt: str, user_txt: str, used_model: str, temp: float):
             roles_data   = take_role(genre_type)
             roles_local   = roles_data[lang]["role"]
             roles_english = roles_data["english"]["role"]
+
+            errors_to_update = []
 
             for npc_ethnicity in npc_ethnicities:
                 ethnicity_index = npc_ethnicities.index(npc_ethnicity)
@@ -198,7 +258,7 @@ def create_npc(sys_txt: str, user_txt: str, used_model: str, temp: float):
                         npc_body_en    = english_npc_bodies[npc_body_index]
 
                         print(
-                            f"\n=== Generating {lang} NPC: "
+                            f"\n=== Generating {lang} NPC (iteration {iteration}): "
                             f"{genre} | {npc_ethnicity} | {npc_genre} | {npc_body} ===\n"
                         )
 
@@ -206,33 +266,48 @@ def create_npc(sys_txt: str, user_txt: str, used_model: str, temp: float):
                         user_text     = build_user_text(usr_template, roles_local)
                         role_response = call_llm(system_text, user_text, used_model, temp).strip()
 
-                        # validate role string
-                        valid, reason = validate_output(role_response, roles_local)
+                        print(role_response)
+
+                        # Valida JSON e ruolo
+                        valid, reason, role_taken = validate_output(role_response, roles_local)
                         if not valid:
                             errors_to_update.append({
-                                "genre":     english_genres[genre_type - 1],
+                                "genre": english_genres[genre_type - 1],
                                 "ethnicity": ethnic_en,
                                 "npc_genre": npc_genre_en,
-                                "npc_body":  npc_body_en,
-                                "error":     reason
+                                "npc_body": npc_body_en,
+                                "error": reason
                             })
                             continue
+                        else:
+                            # Salva l'output valido
+                            save_npc_output(
+                                output_dir=Path("output"),
+                                used_model=used_model,
+                                temp=temp,
+                                lang=lang,
+                                genre_en=english_genres[genre_type - 1],
+                                npc_genre_en=npc_genre_en,
+                                npc_body_en=npc_body_en,
+                                ethnic_en=ethnic_en,
+                                raw_response=role_response
+                            )
+
+                        print(role_response)
 
                         # map role to English
                         try:
-                            role_index = [r.lower() for r in roles_local].index(role_response.lower())
-                            role_en    = roles_english[role_index]
+                            role_index = [r.lower() for r in roles_local].index(role_taken.lower())
+                            role_en = roles_english[role_index]
                         except ValueError:
                             errors_to_update.append({
-                                "genre":     english_genres[genre_type - 1],
+                                "genre": english_genres[genre_type - 1],
                                 "ethnicity": ethnic_en,
                                 "npc_genre": npc_genre_en,
-                                "npc_body":  npc_body_en,
-                                "error":     "role not allowed"
+                                "npc_body": npc_body_en,
+                                "error": "role not allowed"
                             })
                             continue
-
-                        print(role_response)
 
                         # update role-matrix CSV per genre / lang / npc_genre / npc_body / model
                         csv_dir = Path(
@@ -246,21 +321,23 @@ def create_npc(sys_txt: str, user_txt: str, used_model: str, temp: float):
                         )
                         update_role_matrix_csv(csv_name, roles_english.copy(), ethnic_en, role_en)
 
-        # after all genres for this language, update the per-language error CSV
-        error_csv_path = Path(
-            f"errors/{used_model.replace('/', '_')}/temperature_{temp}/{lang}/error_{lang}.csv"
-        )
-        error_csv_path.parent.mkdir(parents=True, exist_ok=True)
-        if errors_to_update:
-            update_error_matrix_csv(error_csv_path, errors_to_update)
+            # after all genres for this language, update the per-language error CSV
+            error_csv_path = Path(
+                f"errors/{used_model.replace('/', '_')}/temperature_{temp}/{lang}/error_{lang}.csv"
+            )
+            error_csv_path.parent.mkdir(parents=True, exist_ok=True)
+            if errors_to_update:
+                update_error_matrix_csv(error_csv_path, errors_to_update)
 
 
 # -----------------------
 # Runner: N iterations
 # -----------------------
 if __name__ == "__main__":
-    N = 1000
+    N = 299
     lms.get_default_client(SERVER_API_HOST)
+    iteration = 201
     for i in range(N):
         print(f"\n======== ITERATION {i+1}/{N} ========\n")
-        create_npc("npc_system", "npc_user", "google/gemma-3-1b", 0.7)
+        iteration+= 1
+        create_npc("npc_system", "npc_user", "qwen/qwen3-8b", 0.8, iteration)
