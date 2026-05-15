@@ -1,11 +1,28 @@
 import re
 import json
 import csv
-import lmstudio as lms
+#import lmstudio as lms
 from pathlib import Path
+from transformers import AutoTokenizer, AutoModelForCausalLM
+import torch
+from tqdm import tqdm
+from huggingface_hub import login
 
-SERVER_API_HOST = "localhost:1234"
+login(token="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")
 
+#SERVER_API_HOST = "localhost:1234"
+
+
+# Carica modello una volta sola fuori da create_npc, non ad ogni chiamata
+def load_model(model_id: str):
+    tokenizer = AutoTokenizer.from_pretrained(model_id)
+    model = AutoModelForCausalLM.from_pretrained(
+        model_id,
+        torch_dtype=torch.bfloat16,
+        device_map="auto"
+    )
+    model.eval()
+    return tokenizer, model
 
 def load_prompt_template(path: str) -> str:
     """Load the quest generation template."""
@@ -42,27 +59,39 @@ def take_role(genre_index: int) -> dict:
     with open(mapping[genre_index], "r", encoding="utf-8") as f:
         return json.load(f)
 
-def call_llm(system_text: str, user_text: str, used_model: str, temp: float) -> str:
-    try:
-        with lms.Client() as client:
-            model = client.llm.model(used_model)
-            chat = lms.Chat(system_text)
-            chat.add_user_message(user_text)
-            response = str(model.respond(chat, config={
-                "temperature": temp,
-                "maxTokens": 200,
-            }))
-    except lms.LMStudioServerError:
-        return ""
+def call_llm(system_text: str, user_text: str, tokenizer, model, temp: float) -> str:
+    prompt = f"{system_text}\n\n{user_text}\n"
 
-    response = re.sub(r"<think>.*?</think>", "", response, flags=re.DOTALL).strip()
-    response = re.sub(r"```json\s*", "", response, flags=re.IGNORECASE)
-    response = re.sub(r"```", "", response)
-    return response
+    inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
+
+    try:
+        with torch.no_grad():
+            output = model.generate(
+                **inputs,
+                max_new_tokens=150,
+                temperature=temp,
+                do_sample=True,
+                pad_token_id=tokenizer.eos_token_id
+            )
+
+        # Decodifica solo i token generati, non il prompt
+        generated = output[0][inputs["input_ids"].shape[-1]:]
+        response = tokenizer.decode(generated, skip_special_tokens=True).strip()
+
+        response = re.sub(r"<think>.*?</think>", "", response, flags=re.DOTALL).strip()
+        response = re.sub(r"```json\s*", "", response, flags=re.IGNORECASE)
+        response = re.sub(r"```", "", response)
+        return response
+
+    except Exception as e:
+        return ""
 
 
 def validate_output(raw_response: str, role_list: list) -> tuple:
-    """Controlla se l'output è un JSON, il ruolo restituito è presente nella lista dei ruoli consentiti e c'è il campo personality."""
+    """Controlla se l'output è un JSON, il ruolo restituito è presente nella lista dei ruoli consentiti e c'è il campo personality con OCEAN."""
+    OCEAN_FIELDS = {"openness", "conscientiousness", "extraversion", "agreeableness", "neuroticism"}
+    OCEAN_VALUES = {"high", "medium", "low"}
+
     try:
         data = json.loads(raw_response)
     except json.JSONDecodeError:
@@ -78,12 +107,23 @@ def validate_output(raw_response: str, role_list: list) -> tuple:
         return False, "missing personality", None
 
     role_value = data["role"]
-
     if not isinstance(role_value, str):
         return False, "invalid json", None
 
     if role_value.strip().lower() not in [r.lower() for r in role_list]:
         return False, "role not allowed", None
+
+    personality = data["personality"]
+    if not isinstance(personality, dict):
+        return False, "missing personality", None
+
+    # Controlla che ci siano tutti e 5 i campi OCEAN con valori validi
+    if set(personality.keys()) != OCEAN_FIELDS:
+        return False, "missing personality", None
+
+    for field, value in personality.items():
+        if not isinstance(value, str) or value.strip().lower() not in OCEAN_VALUES:
+            return False, "missing personality", None
 
     return True, None, role_value.strip().lower()
 
@@ -212,132 +252,139 @@ def save_npc_output(output_dir: Path, used_model: str,temp: float, lang: str, ge
         json.dump(existing, f, ensure_ascii=False, indent=2)
 
 
-def create_npc(sys_txt: str, user_txt: str, used_model: str, temp: float, iteration: int):
+def create_npc(sys_txt: str, user_txt: str, used_model: str, temp: float, iteration: int, tokenizer, model, pbar):
 
     with open("data/race_genre_language.json", "r", encoding="utf-8") as f:
         lang_data = json.load(f)
 
-    languages          = list(lang_data.keys())
+    lang = "english"
+
     english_ethnicities = lang_data["english"]["npc_races"]
     english_genres      = lang_data["english"]["genres"]
     english_npc_genres  = lang_data["english"]["npc_genres"]
     english_npc_bodies  = lang_data["english"]["npc_bodies"]
 
-    for lang in languages:
-        sys_template = load_prompt_template(f"prompt/{sys_txt}_{lang}.txt")
-        usr_template = load_prompt_template(f"prompt/{user_txt}_{lang}.txt")
+    sys_template = load_prompt_template(f"prompt/{sys_txt}_{lang}.txt")
+    usr_template = load_prompt_template(f"prompt/{user_txt}_{lang}.txt")
 
-        print(f"\n=== Loading template for language: {lang} ===")
+    genres        = lang_data[lang]["genres"]
+    npc_ethnicities = lang_data[lang]["npc_races"]
+    npc_genres    = lang_data[lang]["npc_genres"]
+    npc_bodies    = lang_data[lang]["npc_bodies"]
 
-        genres         = lang_data[lang]["genres"]
-        npc_ethnicities = lang_data[lang]["npc_races"]
-        npc_genres      = lang_data[lang]["npc_genres"]
-        npc_bodies      = lang_data[lang]["npc_bodies"]
+    genre_type = 0
 
-        genre_type = 0
+    for genre in genres:
+        genre_type += 1
 
-        for genre in genres:
-            genre_type += 1
+        roles_data    = take_role(genre_type)
+        roles_local   = roles_data[lang]["role"]
+        roles_english = roles_data["english"]["role"]
 
-            roles_data   = take_role(genre_type)
-            roles_local   = roles_data[lang]["role"]
-            roles_english = roles_data["english"]["role"]
+        errors_to_update = []
 
-            errors_to_update = []
+        for npc_ethnicity in npc_ethnicities:
+            ethnicity_index = npc_ethnicities.index(npc_ethnicity)
+            ethnic_en       = english_ethnicities[ethnicity_index]
 
-            for npc_ethnicity in npc_ethnicities:
-                ethnicity_index = npc_ethnicities.index(npc_ethnicity)
-                ethnic_en       = english_ethnicities[ethnicity_index]
+            for npc_genre in npc_genres:
+                npc_genre_index = npc_genres.index(npc_genre)
+                npc_genre_en    = english_npc_genres[npc_genre_index]
 
-                for npc_genre in npc_genres:
-                    npc_genre_index = npc_genres.index(npc_genre)
-                    npc_genre_en    = english_npc_genres[npc_genre_index]
+                for npc_body in npc_bodies:
+                    npc_body_index = npc_bodies.index(npc_body)
+                    npc_body_en    = english_npc_bodies[npc_body_index]
 
-                    for npc_body in npc_bodies:
-                        npc_body_index = npc_bodies.index(npc_body)
-                        npc_body_en    = english_npc_bodies[npc_body_index]
+                    # Aggiorna descrizione barra
+                    pbar.set_description(
+                        f"Iter {iteration} | {genre} | {npc_ethnicity} | {npc_genre} | {npc_body}"
+                    )
 
-                        print(
-                            f"\n=== Generating {lang} NPC (iteration {iteration}): "
-                            f"{genre} | {npc_ethnicity} | {npc_genre} | {npc_body} ===\n"
-                        )
+                    system_text   = build_system_text(sys_template, genre, npc_ethnicity, npc_genre, npc_body)
+                    user_text     = build_user_text(usr_template, roles_local)
+                    role_response = call_llm(system_text, user_text, tokenizer, model, temp).strip()
 
-                        system_text   = build_system_text(sys_template, genre, npc_ethnicity, npc_genre, npc_body)
-                        user_text     = build_user_text(usr_template, roles_local)
-                        role_response = call_llm(system_text, user_text, used_model, temp).strip()
 
-                        print(role_response)
+                    valid, reason, role_taken = validate_output(role_response, roles_local)
+                    if not valid:
+                        errors_to_update.append({
+                            "genre":     english_genres[genre_type - 1],
+                            "ethnicity": ethnic_en,
+                            "npc_genre": npc_genre_en,
+                            "npc_body":  npc_body_en,
+                            "error":     reason
+                        })
+                        pbar.update(1)
+                        continue
 
-                        # Valida JSON e ruolo
-                        valid, reason, role_taken = validate_output(role_response, roles_local)
-                        if not valid:
-                            errors_to_update.append({
-                                "genre": english_genres[genre_type - 1],
-                                "ethnicity": ethnic_en,
-                                "npc_genre": npc_genre_en,
-                                "npc_body": npc_body_en,
-                                "error": reason
-                            })
-                            continue
-                        else:
-                            # Salva l'output valido
-                            save_npc_output(
-                                output_dir=Path("output"),
-                                used_model=used_model,
-                                temp=temp,
-                                lang=lang,
-                                genre_en=english_genres[genre_type - 1],
-                                npc_genre_en=npc_genre_en,
-                                npc_body_en=npc_body_en,
-                                ethnic_en=ethnic_en,
-                                raw_response=role_response
-                            )
+                    save_npc_output(
+                        output_dir=Path("output"),
+                        used_model=used_model,
+                        temp=temp,
+                        lang=lang,
+                        genre_en=english_genres[genre_type - 1],
+                        npc_genre_en=npc_genre_en,
+                        npc_body_en=npc_body_en,
+                        ethnic_en=ethnic_en,
+                        raw_response=role_response
+                    )
 
-                        print(role_response)
+                    try:
+                        role_index = [r.lower() for r in roles_local].index(role_taken.lower())
+                        role_en    = roles_english[role_index]
+                    except ValueError:
+                        errors_to_update.append({
+                            "genre":     english_genres[genre_type - 1],
+                            "ethnicity": ethnic_en,
+                            "npc_genre": npc_genre_en,
+                            "npc_body":  npc_body_en,
+                            "error":     "role not allowed"
+                        })
+                        pbar.update(1)
+                        continue
 
-                        # map role to English
-                        try:
-                            role_index = [r.lower() for r in roles_local].index(role_taken.lower())
-                            role_en = roles_english[role_index]
-                        except ValueError:
-                            errors_to_update.append({
-                                "genre": english_genres[genre_type - 1],
-                                "ethnicity": ethnic_en,
-                                "npc_genre": npc_genre_en,
-                                "npc_body": npc_body_en,
-                                "error": "role not allowed"
-                            })
-                            continue
+                    csv_dir = Path(
+                        f"csv/npc/{used_model.replace('/', '_')}/temperature_{temp}"
+                        f"/{lang}/{english_genres[genre_type - 1]}/{npc_genre_en}/{npc_body_en}"
+                    )
+                    csv_dir.mkdir(parents=True, exist_ok=True)
+                    csv_name = csv_dir / (
+                        f"{english_genres[genre_type - 1]}_{npc_genre_en}_{npc_body_en}"
+                        f"_{used_model.replace('/', '_')}_{lang}.csv"
+                    )
+                    update_role_matrix_csv(csv_name, roles_english.copy(), ethnic_en, role_en)
+                    pbar.update(1)
 
-                        # update role-matrix CSV per genre / lang / npc_genre / npc_body / model
-                        csv_dir = Path(
-                            f"csv/npc/{used_model.replace('/', '_')}/temperature_{temp}"
-                            f"/{lang}/{english_genres[genre_type - 1]}/{npc_genre_en}/{npc_body_en}"
-                        )
-                        csv_dir.mkdir(parents=True, exist_ok=True)
-                        csv_name = csv_dir / (
-                            f"{english_genres[genre_type - 1]}_{npc_genre_en}_{npc_body_en}"
-                            f"_{used_model.replace('/', '_')}_{lang}.csv"
-                        )
-                        update_role_matrix_csv(csv_name, roles_english.copy(), ethnic_en, role_en)
-
-            # after all genres for this language, update the per-language error CSV
-            error_csv_path = Path(
-                f"errors/{used_model.replace('/', '_')}/temperature_{temp}/{lang}/error_{lang}.csv"
-            )
-            error_csv_path.parent.mkdir(parents=True, exist_ok=True)
-            if errors_to_update:
-                update_error_matrix_csv(error_csv_path, errors_to_update)
+        error_csv_path = Path(
+            f"errors/{used_model.replace('/', '_')}/temperature_{temp}/{lang}/error_{lang}.csv"
+        )
+        error_csv_path.parent.mkdir(parents=True, exist_ok=True)
+        if errors_to_update:
+            update_error_matrix_csv(error_csv_path, errors_to_update)
 
 
 # -----------------------
 # Runner: N iterations
 # -----------------------
 if __name__ == "__main__":
-    N = 299
-    lms.get_default_client(SERVER_API_HOST)
-    iteration = 201
-    for i in range(N):
-        print(f"\n======== ITERATION {i+1}/{N} ========\n")
-        iteration+= 1
-        create_npc("npc_system", "npc_user", "qwen/qwen3-8b", 0.8, iteration)
+    N = 452
+
+    model_id = "meta-llama/Llama-3.1-8B"
+    temp = 0.8
+
+    tokenizer, model = load_model(model_id)
+
+    with open("data/race_genre_language.json", "r", encoding="utf-8") as f:
+        lang_data = json.load(f)
+    lang = "english"
+    n_genres = len(lang_data[lang]["genres"])
+    n_ethnicities = len(lang_data[lang]["npc_races"])
+    n_npc_genres = len(lang_data[lang]["npc_genres"])
+    n_bodies = len(lang_data[lang]["npc_bodies"])
+    combinations_per_iter = n_genres * n_ethnicities * n_npc_genres * n_bodies
+
+    total_steps = N * combinations_per_iter
+
+    with tqdm(total=total_steps, unit="npc") as pbar:
+        for i in range(N):
+            create_npc("npc_system", "npc_user", model_id, temp, i, tokenizer, model, pbar)
