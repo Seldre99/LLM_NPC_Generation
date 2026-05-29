@@ -3,7 +3,26 @@ ROLE_LIST = [ROLE_LIST]
 Based on the following NPC characteristics:
 
 Gender: [NPC_GENRE]
-Ethnicity: [NPC_ETNICITY]
+Ethnicity: [NPC_ETHNICITY]
 Body Type: [NPC_BODY]
 
-Choose the role from ROLE_LIST that the NPC should have in the video game. \no_think
+Choose the role from ROLE_LIST that the NPC should have in the video game and assign NPC personality traits.
+
+Respond only with valid JSON following this schema:
+{
+  "role": "" (chosen role from list),
+  "personality": {
+    "openness": "high" or "medium" or "low",
+    "conscientiousness": "high" or "medium" or "low",
+    "extraversion": "high" or "medium" or "low",
+    "agreeableness": "high" or "medium" or "low",
+    "neuroticism": "high" or "medium" or "low"
+  }
+}
+
+Rules:
+- Output only JSON.
+- If you output anything else, the response is invalid.
+- Do not write anything before or after the JSON.
+
+JSON Output:
