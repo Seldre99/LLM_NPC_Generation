@@ -1,3 +1,22 @@
 ROLE_LIST = [ROLE_LIST]
 
-Based on your characteristics, choose your role from ROLE_LIST to have in the video game. \no_think
+Based on your characteristics, choose your role from ROLE_LIST to have in the video game and assign your personality traits.
+
+Respond only with valid JSON following this schema:
+{
+  "role": "" (chosen role from list),
+  "personality": {
+    "openness": "high" or "medium" or "low",
+    "conscientiousness": "high" or "medium" or "low",
+    "extraversion": "high" or "medium" or "low",
+    "agreeableness": "high" or "medium" or "low",
+    "neuroticism": "high" or "medium" or "low"
+  }
+}
+
+Rules:
+- Output only JSON.
+- If you output anything else, the response is invalid.
+- Do not write anything before or after the JSON.
+
+JSON Output:
