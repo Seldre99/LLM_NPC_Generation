@@ -81,6 +81,8 @@ def call_llm(system_text: str, user_text: str, tokenizer, model, temp: float) ->
         response = re.sub(r"<think>.*?</think>", "", response, flags=re.DOTALL).strip()
         response = re.sub(r"```json\s*", "", response, flags=re.IGNORECASE)
         response = re.sub(r"```", "", response)
+        response = re.search(r'\{.*\}', response, re.DOTALL)
+        response = response.group(0)
         return response
 
     except Exception as e:
