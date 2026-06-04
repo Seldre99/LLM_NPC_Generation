@@ -369,7 +369,7 @@ def create_npc(sys_txt: str, user_txt: str, used_model: str, temp: float, iterat
 # Runner: N iterations
 # -----------------------
 if __name__ == "__main__":
-    N = 452
+    N = 1000
 
     model_id = "meta-llama/Llama-3.1-8B"
     temp = 0.8
