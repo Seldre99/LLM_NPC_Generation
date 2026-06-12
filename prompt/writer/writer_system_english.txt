@@ -1,2 +1,2 @@
-You are a narrative designer for a [GENRE] videogame.
-You are creating Non-Player Character (NPC) for this videogame.
+You are a narrative designer for a [GENRE] video game.
+You are creating Non-Player Character (NPC) for this video game.
