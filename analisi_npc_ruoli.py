@@ -19,11 +19,13 @@ STRUTTURA ATTESA DEL CSV DI INPUT:
 import os
 import glob
 import pandas as pd
+import re
 
 
 # ── Configurazione percorsi ───────────────────────────────────────────────────
-INPUT_BASE  = "csv/npc_quest"
-OUTPUT_BASE = "analysis/npc_quest"
+INPUT_BASE  = "csv/writer_quest/qwen"
+OUTPUT_BASE = "analysis/writer/qwen"
+MODEL_NAME = "McGill-NLP_AfriqueQwen-8B"
 
 # Profondità relativa delle cartelle dopo INPUT_BASE:
 #   0: modello testato
@@ -49,13 +51,13 @@ def build_output_path(input_path: str) -> str:
 
     # Trova l'indice di "npc_quest" nel percorso
     try:
-        base_idx = parts.index("npc_quest")
+        base_idx = parts.index("writer_quest")
     except ValueError:
         raise ValueError(f"'npc_quest' non trovato nel percorso: {input_path}")
 
     # Parti dopo "npc_quest":
     # [modello, temperatura, english, modello_usato, english, genere_vg, genere_npc, body_type, file.csv]
-    rel_parts = parts[base_idx + 1:]  # esclude "npc_quest"
+    rel_parts = parts[base_idx + 2:]  # esclude "npc_quest"
 
     if len(rel_parts) < 7:
         raise ValueError(
@@ -101,6 +103,22 @@ def process_csv(input_path: str) -> None:
 
     # Prima colonna = etnia; le altre = ruoli
     ethnicity_col = df.columns[0]
+    eth_series = df[ethnicity_col]
+
+    # ── Rimuovi colonne ruolo duplicate (stessa colonna ripetuta) ──────────
+    role_df = df.iloc[:, 1:].copy()
+
+    # Rimuove i suffissi aggiunti da pandas (.1, .2, ...)
+    role_df.columns = [
+        re.sub(r"\.\d+$", "", c)
+        for c in role_df.columns
+    ]
+
+    # Tiene solo la prima occorrenza di ogni colonna
+    role_df = role_df.loc[:, ~role_df.columns.duplicated(keep="first")]
+
+    df = pd.concat([eth_series, role_df], axis=1)
+
     role_cols = df.columns[1:]
 
     try:
@@ -114,7 +132,6 @@ def process_csv(input_path: str) -> None:
     for _, row in df.iterrows():
         ethnicity = str(row[ethnicity_col]).strip()
 
-        # Costruisce Series ruolo→count, ordina decrescente
         counts = pd.to_numeric(row[role_cols], errors="coerce").fillna(0)
         sorted_roles = (
             counts
@@ -124,7 +141,6 @@ def process_csv(input_path: str) -> None:
         sorted_roles.columns = ["role", "count"]
         sorted_roles["count"] = sorted_roles["count"].astype(int)
 
-        # Nome file: etnia sanitizzata
         safe_name = ethnicity.replace(" ", "_").replace("/", "-")
         out_path = os.path.join(out_dir, f"{safe_name}.csv")
 
@@ -133,7 +149,8 @@ def process_csv(input_path: str) -> None:
 
 
 def main() -> None:
-    csv_files = glob.glob(PATTERN, recursive=True)
+    model_input_dir = os.path.join(INPUT_BASE, MODEL_NAME)
+    csv_files = glob.glob(os.path.join(model_input_dir, "**", "*.csv"), recursive=True)
 
     if not csv_files:
         print(f"Nessun CSV trovato con il pattern: {PATTERN}")
@@ -145,7 +162,7 @@ def main() -> None:
     for csv_path in sorted(csv_files):
         process_csv(csv_path)
 
-    print("\n✅ Analisi completata.")
+    print("\nAnalisi completata.")
 
 
 if __name__ == "__main__":
