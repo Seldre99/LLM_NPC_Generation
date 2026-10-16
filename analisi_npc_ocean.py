@@ -1,6 +1,6 @@
 """
 Analizza i JSON in:
-  output/npc_quest/<modello>/<temperatura>/english/<modello_usato>/english/<genere_videogioco>/<genere_npc>/<body_type>/<etnia>.json
+  output/npc_quest/<modello>/<temperatura>/english/<genere_videogioco>/<genere_npc>/<body_type>/<etnia>.json
 
 Struttura JSON di input: array di oggetti con "role" e "personality"
   (openness, conscientiousness, extraversion, agreeableness, neuroticism → high/medium/low)
@@ -21,8 +21,9 @@ from collections import defaultdict
 import pandas as pd
 
 
-INPUT_BASE  = "output/npc_quest"
-OUTPUT_BASE = "analysis/ocean/npc_quest"
+INPUT_BASE  = "output/writer/qwen"
+OUTPUT_BASE = "analysis/ocean/writer/qwen"
+MODEL_NAME = "McGill-NLP_AfriqueQwen-8B"
 
 PATTERN = os.path.join(INPUT_BASE, "**", "*.json")
 
@@ -40,9 +41,9 @@ def build_output_dir(input_path: str) -> str:
     parts = os.path.normpath(input_path).split(os.sep)
 
     try:
-        base_idx = parts.index("npc_quest")
+        base_idx = parts.index("writer")
     except ValueError:
-        raise ValueError(f"'npc_quest' non trovato nel percorso: {input_path}")
+        raise ValueError(f" non trovato nel percorso: {input_path}")
 
     rel = parts[base_idx + 1:]
 
@@ -51,14 +52,16 @@ def build_output_dir(input_path: str) -> str:
             f"Struttura cartelle inattesa ({len(rel)} parti, attese ≥7): {rel}"
         )
 
-    modello     = rel[0]
-    temperatura = rel[1]
+    modello     = rel[1]
+    temperatura = rel[2]
     # rel[2] = "english"
-    genere_vg   = rel[3]
-    genere_npc  = rel[4]
-    body_type   = rel[5]
+    genere_vg   = rel[4]
+    genere_npc  = rel[5]
+    body_type   = rel[6]
     # rel[6] = <etnia>.json  → diventa la sottocartella
-    etnia       = os.path.splitext(rel[6])[0]  # rimuove .json
+    etnia       = os.path.splitext(rel[7])[0]  # rimuove .json
+
+    print(etnia)
 
     etnia = etnia.split("_")[3]
     print(etnia)
@@ -83,11 +86,11 @@ def process_json(input_path: str) -> None:
         with open(input_path, "r", encoding="utf-8") as f:
             data = json.load(f)
     except Exception as e:
-        print(f"  ✗ Impossibile leggere il file: {e}")
+        print(f"Impossibile leggere il file: {e}")
         return
 
     if not isinstance(data, list) or len(data) == 0:
-        print("  ✗ JSON vuoto o non è un array, skip.")
+        print(" JSON vuoto o non è un array, skip.")
         return
 
     try:
@@ -138,14 +141,15 @@ def process_json(input_path: str) -> None:
         out_path  = os.path.join(out_dir, f"{safe_role}.csv")
 
         df.to_csv(out_path, index=False)
-        print(f"  ✔ Salvato: {out_path}")
+        print(f" Salvato: {out_path}")
 
 
 def main() -> None:
-    json_files = glob.glob(PATTERN, recursive=True)
+    model_input_dir = os.path.join(INPUT_BASE, MODEL_NAME)
+    json_files = glob.glob(os.path.join(model_input_dir, "**", "*.json"), recursive=True)
 
     if not json_files:
-        print(f"Nessun JSON trovato con il pattern: {PATTERN}")
+        print(f"Nessun JSON trovato per il modello '{MODEL_NAME}' in: {model_input_dir}")
         print("Assicurati di eseguire lo script dalla directory che contiene 'output/'.")
         return
 
@@ -154,7 +158,7 @@ def main() -> None:
     for json_path in sorted(json_files):
         process_json(json_path)
 
-    print("\n✅ Analisi completata.")
+    print("\n Analisi completata.")
 
 
 if __name__ == "__main__":
