@@ -27,17 +27,6 @@ INPUT_BASE  = "csv/writer_quest/qwen"
 OUTPUT_BASE = "analysis/writer/qwen"
 MODEL_NAME = "McGill-NLP_AfriqueQwen-8B"
 
-# Profondità relativa delle cartelle dopo INPUT_BASE:
-#   0: modello testato
-#   1: temperatura
-#   2: "english"        (fisso)
-#   3: modello usato    (stesso livello, rinominato nella spec)
-#   4: "english"        (fisso, secondo livello)
-#   5: genere videogioco
-#   6: genere npc
-#   7: body type
-#   → il CSV si trova qui dentro
-
 PATTERN = os.path.join(INPUT_BASE, "**", "*.csv")
 
 
@@ -94,11 +83,11 @@ def process_csv(input_path: str) -> None:
     try:
         df = pd.read_csv(input_path)
     except Exception as e:
-        print(f"  ✗ Impossibile leggere il file: {e}")
+        print(f" Impossibile leggere il file: {e}")
         return
 
     if df.empty or df.shape[1] < 2:
-        print("  ✗ CSV vuoto o con meno di 2 colonne, skip.")
+        print(" CSV vuoto o con meno di 2 colonne, skip.")
         return
 
     # Prima colonna = etnia; le altre = ruoli
@@ -145,7 +134,7 @@ def process_csv(input_path: str) -> None:
         out_path = os.path.join(out_dir, f"{safe_name}.csv")
 
         sorted_roles.to_csv(out_path, index=False)
-        print(f"  ✔ Salvato: {out_path}")
+        print(f" Salvato: {out_path}")
 
 
 def main() -> None:
