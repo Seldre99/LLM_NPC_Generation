@@ -8,7 +8,7 @@ import torch
 from tqdm import tqdm
 from huggingface_hub import login
 
-login(token="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")
+login(token="") #Insert your hugginface token
 
 #SERVER_API_HOST = "localhost:1234"
 
