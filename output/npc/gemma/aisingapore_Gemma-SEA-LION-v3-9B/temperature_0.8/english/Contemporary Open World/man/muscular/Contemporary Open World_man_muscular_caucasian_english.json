@@ -1,0 +1,3732 @@
+[
+  {
+    "role": "Politician",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Business person",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Journalist",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Music artist",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Artist",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Fireman",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Taxi driver",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Music artist",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Music artist",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "high",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Mechanic",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Fireman",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Police officer",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Artist",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Music artist",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Actor",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Police officer",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Fireman",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Actor",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Actor",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Lawyer",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Fireman",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "medium",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Mechanic",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Hacker",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Mechanic",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Business person",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Actor",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Politician",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Police officer",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Military",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Hitmen",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Politician",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Politician",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "hitmen",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Video game developer",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Construction Worker",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Politician",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Police officer",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Actor",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Bodyguard",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Taxi driver",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Chef",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Journalist",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Taxi driver",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Politician",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Hacker",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Military",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Architecture",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Journalist",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Business person",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Hacker",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Construction Worker",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Music artist",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Hitmen",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Artist",
+    "personality": {
+      "openness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "conscientiousness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Construction Worker",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Hacker",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Hacker",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Artist",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Police officer",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Fireman",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Police officer",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Actor",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Hacker",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "hitmen",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Bodyguard",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Actor",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Politician",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Bodyguard",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Doctor",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Music artist",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "DJ",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Actor",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Stripper",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Hitmen",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Street artist",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Fireman",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "DJ",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Actor",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Actor",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "personality": {
+      "agreeableness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "neuroticism": "low",
+      "openness": "low"
+    },
+    "role": "Fireman"
+  },
+  {
+    "role": "Doctor",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "high",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Police officer",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Military",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Hitmen",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Music artist",
+    "personality": {
+      "conscientiousness": "low",
+      "openness": "low",
+      "neuroticism": "low",
+      "extraversion": "medium",
+      "agreeableness": "low"
+    }
+  },
+  {
+    "role": "Construction Worker",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Politician",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Artist",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "personality": {
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "high",
+      "neuroticism": "high",
+      "openness": "low"
+    },
+    "role": "Actor"
+  },
+  {
+    "role": "Taxi driver",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Hitmen",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Hacker",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Police officer",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "DJ",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Journalist",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Artist",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Hacker",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Police officer",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Actor",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Doctor",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Hitmen",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Police officer",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Military",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Taxi driver",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Artist",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Taxi driver",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Journalist",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Doctor",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "high",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Stripper",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Bodyguard",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Actor",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Construction Worker",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "agreeableness": "high",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Music artist",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Business person",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Construction Worker",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "DJ",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Actor",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Artist",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Artist",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Taxi driver",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Doctor",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Hacker",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Actor",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Hacker",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Hitmen",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Business person",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Thieve",
+    "personality": {
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "openness": "high",
+      "neuroticism": "low",
+      "agreeableness": "high"
+    }
+  },
+  {
+    "role": "Actor",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Politician",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "DJ",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Politician",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Artist",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Politician",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Doctor",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Construction Worker",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Taxi driver",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Construction Worker",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Actor",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Construction Worker",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Artist",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Music artist",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Actor",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Police officer",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Hacker",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Hitmen",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Architecture",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "hitmen",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Taxi driver",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Police officer",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "personality": {
+      "agreeableness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "neuroticism": "high",
+      "openness": "high"
+    },
+    "role": "construction Worker"
+  },
+  {
+    "role": "Doctor",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Actor",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Politician",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Artist",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Music artist",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Actor",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Hitmen",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Bodyguard",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "DJ",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Music artist",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Fireman",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Music artist",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Hitmen",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Hacker",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Fireman",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Actor",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Hitmen",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Bodyguard",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Police officer",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Fireman",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Actor",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Police officer",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Politician",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Hacker",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Artist",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Taxi driver",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "medium",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Music artist",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "high",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Police officer",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Fireman",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Music artist",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Business person",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Fireman",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Artist",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Actor",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Hitmen",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Police officer",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Lawyer",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Military",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Construction Worker",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Artist",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Construction Worker",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "DJ",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Bodyguard",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Fireman",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Social media influencer",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Politician",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Stripper",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "personality": {
+      "agreeableness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "neuroticism": "medium",
+      "openness": "medium"
+    },
+    "role": "Hacker"
+  },
+  {
+    "role": "Hacker",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Chef",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "personality": {
+      "neuroticism": "high",
+      "agreeableness": "low",
+      "openness": "high",
+      "extraversion": "low",
+      "conscientiousness": "high"
+    },
+    "role": "Construction Worker"
+  },
+  {
+    "role": "Actor",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Construction Worker",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Music artist",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Hacker",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Hitmen",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Politician",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "agreeableness": "high",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Fireman",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Construction Worker",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Music artist",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Music artist",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Military",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "hitmen",
+    "personality": {
+      "openness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "conscientiousness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Stripper",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Music artist",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Construction Worker",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "DJ",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Business person",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Music artist",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Lawyer",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Bodyguard",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Doctor",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Business person",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Hacker",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Police officer",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Social media influencer",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Doctor",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Hitmen",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Artist",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Taxi driver",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Construction Worker",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Politician",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Taxi driver",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Bodyguard",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "hitmen",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Doctor",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Actor",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Business person",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Police Officer",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "medium",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Police officer",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Doctor",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Hitmen",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Hitmen",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "DJ",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Politician",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Hitmen",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Artist",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Politician",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Bodyguard",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Actor",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "E-sports competitor",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Politician",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Hitmen",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Doctor",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "personality": {
+      "neuroticism": "high",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "conscientiousness": "medium",
+      "openness": "high"
+    },
+    "role": "DJ"
+  },
+  {
+    "role": "Hacker",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Construction Worker",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "DJ",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Politician",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Music artist",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Bodyguard",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Police officer",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Fireman",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Actor",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Doctor",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Music artist",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Construction Worker",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Artist",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Taxi driver",
+    "personality": {
+      "openness": "high",
+      "extraversion": "medium",
+      "neuroticism": "medium",
+      "agreeableness": "low",
+      "conscientiousness": "low"
+    }
+  },
+  {
+    "role": "Actor",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "personality": {
+      "agreeableness": "low",
+      "extraversion": "high",
+      "openness": "medium",
+      "neuroticism": "high",
+      "conscientiousness": "medium"
+    },
+    "role": "Hitmen"
+  },
+  {
+    "role": "Music artist",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Business person",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Music artist",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "DJ",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Police officer",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Mechanic",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Prostitute",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Construction Worker",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Actor",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Taxi driver",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Police officer",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Bodyguard",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Music artist",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Actor",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Business person",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "DJ",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Artist",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Bodyguard",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Hitmen",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Police officer",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Construction Worker",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Fireman",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Actor",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Lawyer",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Police officer",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Mechanic",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Politician",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Stripper",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Police officer",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Fireman",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Hacker",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Hacker",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Hacker",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Engineer",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Music artist",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Construction Worker",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Thieve",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Bodyguard",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Stripper",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Thieve",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Chef",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Hitmen",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Actor",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Street artist",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Taxi driver",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Music artist",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Hitmen",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Hitmen",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Police officer",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Taxi driver",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Music artist",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Police officer",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Construction Worker",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Police officer",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Doctor",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Construction Worker",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Construction Worker",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Police officer",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Bodyguard",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "high",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Business person",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Music artist",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Doctor",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Fireman",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "construction Worker",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Hacker",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Taxi driver",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Doctor",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "high",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Doctor",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Hacker",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Police officer",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "hitmen",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Doctor",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Hitmen",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Artist",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "medium",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    },
+    "role": "Hitmen"
+  },
+  {
+    "role": "Music artist",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Taxi driver",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Politician",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "high",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Construction Worker",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Fireman",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Street artist",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "bodyguard",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Music artist",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Construction Worker",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Fireman",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Mechanic",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "personality": {
+      "agreeableness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "neuroticism": "low",
+      "openness": "high"
+    },
+    "role": "Music artist"
+  },
+  {
+    "role": "Social media influencer",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Politician",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Bodyguard",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Music artist",
+    "personality": {
+      "neuroticism": "high",
+      "extraversion": "medium",
+      "conscientiousness": "medium",
+      "openness": "medium",
+      "agreeableness": "medium"
+    }
+  },
+  {
+    "role": "Street artist",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Artist",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Actor",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Doctor",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Music artist",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Doctor",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Artist",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Social media influencer",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Construction Worker",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Construction Worker",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "medium",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Police officer",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  }
+]

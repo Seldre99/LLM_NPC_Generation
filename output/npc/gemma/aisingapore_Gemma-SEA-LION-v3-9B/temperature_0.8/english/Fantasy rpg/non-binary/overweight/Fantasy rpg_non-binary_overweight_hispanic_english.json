@@ -1,0 +1,3902 @@
+[
+  {
+    "role": "Noble",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Hunter",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Imperial Soldier",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Bard",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Conjurer",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Fisherman",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Courier",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Prison Guard",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Vagrant",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Spellsword",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "agreeableness": "low",
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "neuroticism": "medium",
+      "openness": "low"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Imperial Soldier",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Convicted Guard",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "medium",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Fisherman",
+    "personality": {
+      "neuroticism": "low",
+      "extraversion": "medium",
+      "agreeableness": "high",
+      "conscientiousness": "high",
+      "openness": "high"
+    }
+  },
+  {
+    "role": "Thief",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Blademaster",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Vampire",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Vagrant",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Prostitute",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Vagrant",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Thief",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Thief",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Bard",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Dremora",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "neuroticism": "medium",
+      "conscientiousness": "medium",
+      "agreeableness": "low",
+      "extraversion": "medium",
+      "openness": "low"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Vigilants of Stendarr",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Priest",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Imperial Soldier",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Farmer",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Courier",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Thief",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "bandit",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Conjurer",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Priest",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "agreeableness": "high",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Stormcloak Soldier",
+    "personality": {
+      "neuroticism": "low",
+      "extraversion": "high",
+      "conscientiousness": "low",
+      "agreeableness": "high",
+      "openness": "low"
+    }
+  },
+  {
+    "role": "Peddler",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Conjurer",
+    "personality": {
+      "conscientiousness": "low",
+      "neuroticism": "medium",
+      "agreeableness": "medium",
+      "extraversion": "low",
+      "openness": "low"
+    }
+  },
+  {
+    "role": "Imperial Courier",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Fisherman",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Vagrant",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": " Bandit ",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Fisherman",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Pellar",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Fisherman",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Priest",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Storm Mage",
+    "personality": {
+      "agreeableness": "high",
+      "extraversion": "medium",
+      "neuroticism": "medium",
+      "conscientiousness": "low",
+      "openness": "medium"
+    }
+  },
+  {
+    "role": "Thief",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Enforcer",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Vagrant",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Conjurer",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Fisherman",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Forsworn",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Convicted Guard",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Imperial Soldier",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Thief",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Alchemist",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Fisherman",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Noble",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "bandit",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Forsworn",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Thief",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Imperial Soldier",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Fisherman",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Thalmor",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Imperial Courier",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "openness": "low",
+      "conscientiousness": "high",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Priest",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Vigilants of Stendarr",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Stormcloak Soldier",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Fisherman",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Falmer Servant",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Noble",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Thief",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Convicted Guard",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Vagrant",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Hired Thug",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Falmer Servant",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Alchemist",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "lowlife",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Bard",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Thief",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Forsworn",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Noble",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Lowlife",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Fisherman",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "high",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Priest",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    },
+    "role": "Imperial Soldier"
+  },
+  {
+    "role": " Bandit ",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Thief",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "medium",
+      "neuroticism": "high"
+    },
+    "role": "Fisherman"
+  },
+  {
+    "role": "Noble",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "high",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Fisherman",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Enforcer",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "medium",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Lowlife",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Lowlife",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Alchemist",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Enforcer",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Hold Guard",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Merchant",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Prison Guard",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Palace Guard",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Noble",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Conjurer",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Imperial Soldier",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Thief",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "medium",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Lowlife",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Vagrant",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Noble",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Forsworn",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "medium",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Merchant",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Thief",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Thief",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Hunter",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Fisherman",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Courier",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "bandit",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Vagrant",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Priest",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Alchemist",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Imperial Soldier",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Fisherman",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Convicted Guard",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Thief",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Courier",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Imperial Soldier",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "medium",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Imperial Courier",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Vagrant",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Falmer Servant",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Forsworn",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Lowlife",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Alchemist",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Courier",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Thief",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Ambassador",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "medium",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Courier",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": " Bandit",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Noble",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Peddler",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Fisherman",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "high",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Hunter",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Pellar",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Pellar",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Courier",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Stormcloak Soldier",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "high",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Conjurer",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Imperial Courier",
+    "personality": {
+      "openness": "high ",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Ambassador",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Vagrant",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Vagrant",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Rogue",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Vagrant",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Courier",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Thief",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Thief",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Vagrant",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Lowlife",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Imperial Soldier",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Imperial Courier",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Thief",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Courier",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Imperial Soldier",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": " Bandit",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Merchant",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "high",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Alchemist",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Convicted Guard",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Pauper",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Priest",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Bard",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Fisherman",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Convicted Guard",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Fisherman",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "agreeableness": "high",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Lowlife",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Courier",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Imperial Courier",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Imperial Soldier",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "personality": {
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "neuroticism": "low",
+      "agreeableness": "medium",
+      "openness": "low"
+    },
+    "role": "Fisherman"
+  },
+  {
+    "role": "Fisherman",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Vagrant",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Lowlife",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Fisherman",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Hunter",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Fisherman",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Peddler",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Thief",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Stormcloak Soldier",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Imperial Soldier",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Imperial Soldier",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Merchant",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Palace Guard",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Palace Guard",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Vagrant",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Conjurer",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Falmer Servant",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Fisherman",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Fisherman",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Noble",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Imperial Courier",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Thief",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Fisherman",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Noble",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Thief",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": " Bandit ",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Fisherman",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Priest",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Peddler",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Imperial Courier",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "medium",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "high",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Bookseller",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Thief",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Thief",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Hunter",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Hunter",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Thief",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Thief",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Imperial Courier",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Conjurer",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Hunter",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Noble",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Spellsword",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Imperial Courier",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Hunter",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Imperial Courier",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Hired Thug",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Fisherman",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Hunter",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Falmer Servant",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Vagrant",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Fisherman",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Storm Mage",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "high",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Noble",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Noble",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Thief",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Conjurer",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Thief",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Thief",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Thief",
+    "personality": {
+      "agreeableness": "low",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "openness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Hired Thug",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Vagrant",
+    "personality": {
+      "neuroticism": "low",
+      "extraversion": "medium",
+      "openness": "low",
+      "agreeableness": "medium",
+      "conscientiousness": "low"
+    }
+  },
+  {
+    "role": "Prison Guard",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Vagrant",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Noble",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Hired Thug",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    },
+    "role": "Bandit"
+  },
+  {
+    "role": "Pauper",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Noble",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Rogue",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Noble",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Storm Mage",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Forsworn",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Fisherman",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Alchemist",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Noble",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Conjurer",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Conjurer",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Fisherman",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    },
+    "role": "Lowlife"
+  },
+  {
+    "role": "Fisherman",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Hunter",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Courier",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Thief",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Noble",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Thief",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Thief",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "neuroticism": "high",
+      "agreeableness": "high",
+      "extraversion": "low",
+      "conscientiousness": "low",
+      "openness": "low"
+    }
+  },
+  {
+    "role": "Fisherman",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Mythic Dawn Adept",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Vagrant",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Courier",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Noble",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Ambassador",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Courier",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Noble",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "medium",
+      "agreeableness": "high",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Imperial Courier",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Thief",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Thief",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Convicted Guard",
+    "personality": {
+      "neuroticism": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "openness": "low",
+      "agreeableness": "low"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Hunter",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Courier",
+    "personality": {
+      "conscientiousness": "medium",
+      "openness": "low",
+      "neuroticism": "high",
+      "extraversion": "low",
+      "agreeableness": "low"
+    }
+  },
+  {
+    "role": "Prison Guard",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Fisherman",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Thief",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Hired Thug",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Fisherman",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Palace Guard",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Alchemist",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Alchemist",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Imperial Soldier",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Thief",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Courier",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Fisherman",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "high",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Fisherman",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "medium",
+      "agreeableness": "medium",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "medium",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Fisherman",
+    "personality": {
+      "openness": "high",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "medium",
+      "neuroticism": "low"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Alchemist",
+    "personality": {
+      "openness": "medium",
+      "conscientiousness": "low",
+      "extraversion": "high",
+      "agreeableness": "low",
+      "neuroticism": "high"
+    }
+  },
+  {
+    "role": "Priest",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "high",
+      "extraversion": "high",
+      "agreeableness": "high",
+      "neuroticism": "medium"
+    }
+  },
+  {
+    "role": "Bandit",
+    "personality": {
+      "openness": "low",
+      "conscientiousness": "low",
+      "extraversion": "low",
+      "agreeableness": "low",
+      "neuroticism": "low"
+    }
+  }
+]
